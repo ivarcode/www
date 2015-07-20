@@ -39,7 +39,7 @@
 								<a href="#">Chess</a>
 							</li>
 							<li>
-								<a href="#">Contact</a>
+								<a href="./html/contact.html">Contact</a>
 							</li>
 						</ul><!-- end nav -->
 
