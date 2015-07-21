@@ -32,6 +32,9 @@ File: contact.php
 
 			<hr>
 
+			<div class="carousel slide" id="slideshow">
+			</div><!-- end slideshow -->
+
 			<div class="row" id="info">
 				<div class="col-sm-12">
 					<img src="img/hs.png" class="thumbnail pull-left">
