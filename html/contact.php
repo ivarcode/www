@@ -27,8 +27,8 @@ File: contact.html
 		<div class="background">
 		<!-- Layout -->
 		<div class="container" id="main">
-
-			<!--HEADER-->
+			
+			<?php include './html/header.php';?>
 
 			<hr>
 
@@ -52,8 +52,8 @@ File: contact.html
 
 		</div><!--end background -->
 
-		<!--FOOTER-->
-		
+		<?php include './html/footer.php';?>
+
 		<!-- All Javascript at the bottom of the page for faster page loading -->
 		<!-- First try for the online version of jQuery-->
 		<script src="http://code.jquery.com/jquery.js"></script>
@@ -66,4 +66,5 @@ File: contact.html
 
 	</body>
 </html>
+
 
