@@ -28,7 +28,7 @@ File: template.php
 		<!-- Layout -->
 		<div class="container" id="main">
 			
-			<?php include './php/header.php';?>
+			<?php include './header.php';?>
 
 			<hr>
 
@@ -47,7 +47,7 @@ File: template.php
 
 		</div><!--end background -->
 
-		<?php include './php/footer.php';?>
+		<?php include './footer.php';?>
 
 		<!-- All Javascript at the bottom of the page for faster page loading -->
 		<!-- First try for the online version of jQuery-->
