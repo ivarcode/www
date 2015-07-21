@@ -13,7 +13,7 @@
 					<div class="nav-collapse collapse navbar-responsive-collapse">
 						<ul class="nav navbar-nav">
 							<li>
-								<a href="#">Home</a>
+								<a href="#"></a><!--keeping for margin-->
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <strong class="caret"></strong></a>
