@@ -1,13 +1,13 @@
 <!--
 Author: Camden I. Wagner
-File: contact.php
+File: net_ivarcode.php
 -->
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<!-- Website Title & Description -->
-		<title>Contact</title>
+		<title>Project - ivarcode.nets</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -33,11 +33,6 @@ File: contact.php
 			<hr>
 
 			<div class="row" id="info">
-				<div class="col-sm-12">
-					<img src="img/hs.png" class="thumbnail pull-left">
-					<h1>Camden Ivar Wagner</h1>
-					<p></p>
-				</div><!-- end col-sm-12 -->
 				<div class="col-sm-6">
 					
 				</div><!-- end col-sm-6 -->
@@ -66,5 +61,4 @@ File: contact.php
 
 	</body>
 </html>
-
 
