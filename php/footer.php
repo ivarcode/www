@@ -15,7 +15,7 @@
 							<li><a href="#">Home</a></li>
 							<li><a href="#">Projects</a></li>
 							<li><a href="#">Chess</a></li>
-							<li><a href="./html/contact.html">Contact</a></li>
+							<li><a href="./php/contact.php">Contact</a></li>
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">

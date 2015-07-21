@@ -1,6 +1,6 @@
 <!--
 Author: Camden I. Wagner
-File: template.html
+File: template.php
 -->
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ File: template.html
 		<!-- Layout -->
 		<div class="container" id="main">
 			
-			<?php include './html/header.php';?>
+			<?php include './php/header.php';?>
 
 			<hr>
 
@@ -47,7 +47,7 @@ File: template.html
 
 		</div><!--end background -->
 
-		<?php include './html/footer.php';?>
+		<?php include './php/footer.php';?>
 
 		<!-- All Javascript at the bottom of the page for faster page loading -->
 		<!-- First try for the online version of jQuery-->

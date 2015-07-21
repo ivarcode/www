@@ -1,6 +1,6 @@
 <!--
 Author: Camden Ivar Wagner
-File: index.html
+File: index.php
 -->
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ File: index.html
 		<!-- Layout -->
 		<div class="container" id="main">
 
-			<?php include './html/header.php';?>
+			<?php include './php/header.php';?>
 
 			<div class="carousel slide" id="slideshow">
 				
@@ -162,7 +162,7 @@ File: index.html
 
 		</div><!--end background -->
 
-		<?php include './html/footer.php';?>
+		<?php include './php/footer.php';?>
 		
 		<!-- All Javascript at the bottom of the page for faster page loading -->
 		<!-- First try for the online version of jQuery-->

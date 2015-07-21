@@ -39,7 +39,7 @@
 								<a href="#">Chess</a>
 							</li>
 							<li>
-								<a href="./html/contact.html">Contact</a>
+								<a href="./php/contact.php">Contact</a>
 							</li>
 						</ul><!-- end nav -->
 
