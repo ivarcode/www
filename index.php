@@ -1,5 +1,5 @@
 <!--
-Author: Camden Ivar Wagner
+Author: Camden I. Wagner
 File: index.php
 -->
 
