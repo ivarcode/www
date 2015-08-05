@@ -117,19 +117,19 @@ File: index.php
 					<p>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made.  Here are links to some of my projects and activity in the chess and coding world.</p>
 					<h3>Projects</h3>
 					<div class="list-group">
-						<a href="#" class="list-group-item">
+						<a href="./php/net_ivarcode.php" class="list-group-item">
 							<h4 class="list-group-item-heading">ivarcode.net</h4>
 							<p class="list-group-item-text">Personal website I created to profile myself</p>
 						</a>
-						<a href="#" class="list-group-item">
+						<a href="./php/miners_deluxe_mod.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Miners Deluxe Mod</h4>
 							<p class="list-group-item-text">PC Game Mod for the popular videogame Minecraft</p>
 						</a>
-						<a href="#" class="list-group-item">
+						<a href="./php/message_encrypter.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Message Encrypter Android App</h4>
 							<p class="list-group-item-text">Android App that encrypts and decrypts messages</p>
 						</a>
-						<a href="#" class="list-group-item">
+						<a href="./php/cryptography.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Cryptography Program</h4>
 							<p class="list-group-item-text">Java code written to encrypt and decrypt ciphers</p>
 						</a>

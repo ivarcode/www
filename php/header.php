@@ -23,12 +23,12 @@
 										<a href="./php/net_ivarcode.php">ivarcode.net</a>
 									</li>
 									<li>
-										<a href="#">Miners Deluxe Mod</a>
+										<a href="./php/miners_deluxe_mod.php">Miners Deluxe Mod</a>
 									</li>
 									<li class="divider"></li>
 									<li class="dropdown-header">Collaborative Projects</li>
 									<li>
-										<a href="#">Cryptography Project</a>
+										<a href="cryptography.php">Cryptography Project</a>
 									</li>
 									<li>
 										<a href="#">Music Multiplayer App</a>

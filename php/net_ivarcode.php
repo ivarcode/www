@@ -7,7 +7,7 @@ File: net_ivarcode.php
 <html>
 	<head>
 		<!-- Website Title & Description -->
-		<title>Project - ivarcode.nets</title>
+		<title>Project - ivarcode.net</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
