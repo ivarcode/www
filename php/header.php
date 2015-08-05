@@ -20,7 +20,7 @@
 								<ul class="dropdown-menu">
 									<li class="dropdown-header">Solo Projects</li>
 									<li>
-										<a href="#">ivarcode.net</a>
+										<a href="./net_ivarcode">ivarcode.net</a>
 									</li>
 									<li>
 										<a href="#">Miners Deluxe Mod</a>
