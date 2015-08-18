@@ -70,6 +70,15 @@ ul.unstyled {
 #slide3 {
    background: url('../../img/carousel_medium_03.jpg') top center no-repeat;
 }
+#slide1m {
+   background: url('../../img/carousel_medium_01.jpg') top center no-repeat;
+}
+#slide2m {
+   background: url('../../img/carousel_medium_02.jpg') top center no-repeat;
+}
+#slide3m {
+   background: url('../../img/carousel_medium_03.jpg') top center no-repeat;
+}
 
 /* --------------------------------------
    Info

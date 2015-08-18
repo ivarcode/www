@@ -33,6 +33,40 @@ File: miners_deluxe_mod.php
 			<hr>
 
 			<div class="carousel slide" id="slideshow">
+				
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#slideshow"></li>
+					<li data-slide-to="1" data-target="#slideshow"></li>
+					<li data-slide-to="2" data-target="#slideshow"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->	
+				<div class="carousel-inner">
+					<div class="item active" id="slide1m">
+						<div class="carousel-caption">
+							<h4>Miners Deluxe Mod</h4>
+							<p>Minecraft Mod for v1.6.4 and a few versions prior -- over 100,000 downloads</p>
+						</div>
+					</div>
+					<div class="item" id="slide2m">
+						<div class="carousel-caption">
+							<h4>Items</h4>
+							<p>New items such as ores, gems, tools, armor, and throwable explosives.</p>
+						</div>
+					</div>
+					<div class="item" id="slide3m">
+						<div class="carousel-caption">
+							<h4>Miners Underground Cave Dimension</h4>
+							<p>A fourth dimension added to the game, a cave dimension, that is massive and contains huge ore vains and dangerous enemies.</p>
+						</div>
+					</div>
+				</div><!-- end carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#slideshow"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#slideshow"><span class="icon-next"></span></a>
+			
 			</div><!-- end slideshow -->
 
 			<div class="row" id="info">
