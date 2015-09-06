@@ -7,7 +7,7 @@ File: chess.php
 <html>
 	<head>
 		<!-- Website Title & Description -->
-		<title>TEMPLATE</title>
+		<title>Chess</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
