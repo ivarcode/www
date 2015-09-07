@@ -37,7 +37,8 @@ File: chess.php
 
 			<div class="row" id="info">
 				<div class="col-sm-6">
-					
+					<h2>Chess Tutoring</h2>
+					<p>Contact me at camden.i.wagner@ivarcode.net if you are interested in chess lessons!</p>
 				</div><!-- end col-sm-6 -->
 
 				<div class="col-sm-6">
