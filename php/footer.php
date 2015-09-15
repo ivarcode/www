@@ -14,17 +14,17 @@
 						<ul class="unstyled">
 							<li><a href="/">Home</a></li>
 							<li><a href="#">Projects</a></li>
-							<li><a href="#">Chess</a></li>
+							<!--<li><a href="#">Chess</a></li>-->
 							<li><a href="./php/contact.php">Contact</a></li>
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">
 						<h6>Connect With Me</h6>
 						<ul class="unstyled">
-							<li><a href="#">Google</a></li>
-							<li><a href="#">LinkedIn</a></li>
-							<li><a href="#">GitHub</a></li>
-							<li><a href="#">Chess.com</a></li>
+							<li><a href="https://plus.google.com/114141582683736470404/posts">Google</a></li>
+							<li><a href="https://www.linkedin.com/pub/camden-wagner/b2/9a1/670">LinkedIn</a></li>
+							<li><a href="https://github.com/awesomemancam">GitHub</a></li>
+							<li><a href="http://www.chess.com/members/view/awesomemancam">Chess.com</a></li>
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">

@@ -20,24 +20,26 @@
 								<ul class="dropdown-menu">
 									<li class="dropdown-header">Solo Projects</li>
 									<li>
-										<a href="./php/net_ivarcode.php">ivarcode.net</a>
+										<a href="https://github.com/ivarcode/www">ivarcode.net</a>
 									</li>
 									<li>
-										<a href="./php/miners_deluxe_mod.php">Miners Deluxe Mod</a>
+										<a href="https://github.com/awesomemancam/MinersDeluxe-v2.2.4">Miners Deluxe Mod</a>
 									</li>
+									<!--
 									<li class="divider"></li>
 									<li class="dropdown-header">Collaborative Projects</li>
 									<li>
-										<a href="cryptography.php">Cryptography Project</a>
+										<a href="./php/cryptography.php">Cryptography Project</a>
 									</li>
 									<li>
 										<a href="#">Music Multiplayer App</a>
-									</li>
+									</li>-->
 								</ul>
 							</li>
+							<!--
 							<li>
 								<a href="#">Chess</a>
-							</li>
+							</li>-->
 							<li>
 								<a href="./php/contact.php">Contact</a>
 							</li>
