@@ -1,8 +1,18 @@
 About Me:
-
 lorem ipsum
 
 
 Work Experience:
-
 lorem ipsum
+
+
+Project List:
+-ivarcode.net
+-minersdeluxemod
+-cryptography project
+
+
+Chess:
+-list tournaments
+-chess.com
+-clubs
