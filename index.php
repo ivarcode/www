@@ -83,16 +83,18 @@ File: index.php
 					<h2><center>About Me</center></h2>
 					<h4><center>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.  What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.</center></h4>
 				</div>
-
+				<hr>
+				<div class="col-sm-12">
+					<h2><center>Work Experience</center></h2>
+					<h4><center>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.  What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.</center></h4>
+				</div>
 			</div>
-
-			<!-- code below this line to be scrapped later -->
 
 			<hr>
 	
 			<div class="row" id="info">
 				<div class="col-sm-6">
-					<h2>My Activities</h2>
+					<h2>Projects</h2>
 					<p>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made.  Here are links to some of my projects and activity in the chess and coding world.</p>
 					<h3>Projects</h3>
 					<div class="list-group">
@@ -178,8 +180,6 @@ File: index.php
 					<p><!-- null --></p>
 				</div><!-- end col-sm-6 -->
 			</div><!-- end info -->
-
-			<!-- code above this line to be scrapped later -->
 
 		</div><!-- end container -->
 
