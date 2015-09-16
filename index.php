@@ -83,7 +83,9 @@ File: index.php
 					<h2><center>About Me</center></h2>
 					<h4><center>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.  What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.</center></h4>
 				</div>
-				<hr>
+			</div>
+			<hr>
+			<div class="row" id="workexp">
 				<div class="col-sm-12">
 					<h2><center>Work Experience</center></h2>
 					<h4><center>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.  What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.</center></h4>
