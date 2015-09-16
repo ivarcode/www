@@ -30,6 +30,12 @@ File: index.php
 
 			<?php include './php/header.php';?>
 
+			<div class="row" id="info">
+				<div class="col-sm-12">
+					<h1><center>Camden I. Wagner</center></h1>
+				</div>
+			</div>
+
 			<div class="carousel slide" id="slideshow">
 				
 				<!-- Indicators -->
@@ -67,24 +73,17 @@ File: index.php
 			
 			</div><!-- end slideshow -->
 
-
 			<hr>
 
+			<div class="row" id="info">
+				<div class="col-sm-12">
+					
+				</div>
+			</div>
 
-			<div class="row" id="bigCallout">
+			<!-- code below this line to be scrapped later -->
 
-			</div><!-- end bigCallout -->
-
-	
-			<div class="row" id="featuresHeading">
-
-			</div><!-- end featuresHeading -->
-
-	
-			<div class="row" id="features">
-
-			</div><!-- end features -->
-
+			<hr>
 	
 			<div class="row" id="info">
 				<div class="col-sm-6">
@@ -157,6 +156,7 @@ File: index.php
 				</div><!-- end col-sm-6 -->
 			</div><!-- end info -->
 
+			<!-- code above this line to be scrapped later -->
 
 		</div><!-- end container -->
 
