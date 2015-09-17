@@ -139,13 +139,14 @@ File: index.php
 					<p><!-- null --></p>
 				</div><!-- end col-sm-6 -->
 				<div class="col-sm-6">
-					<h2>My Activities</h2>
-					<p>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made.  Here are links to some of my projects and activity in the chess and coding world.</p>
-					<h3>Projects</h3>
+					<h2>Chess</h2>
+					<p>I have played chess as a hobby since I learned the game when I was 5 years old.  I play online as well as compete in national tournaments.  I also enjoy running and participating in chess clubs at my school or in my community.</p>
+					<h3>Tournaments - USCF 1449</h3>
+					<p>Tournaments since March 2013</p>
 					<div class="list-group">
-						<a href="./php/net_ivarcode.php" class="list-group-item">
-							<h4 class="list-group-item-heading">ivarcode.net</h4>
-							<p class="list-group-item-text">Personal website I created to profile myself</p>
+						<a href="http://www.uschess.org/msa/XtblMain.php?201303173392.7-13599730" class="list-group-item">
+							<h4 class="list-group-item-heading">Eastern Class Championships (MA)</h4>
+							<p class="list-group-item-text">03/15/2013 - 03/17/2015   CLASS E</p>
 						</a>
 						<a href="./php/miners_deluxe_mod.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Miners Deluxe Mod</h4>
