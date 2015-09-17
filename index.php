@@ -88,7 +88,7 @@ File: index.php
 			<div class="row" id="workexp">
 				<div class="col-sm-12">
 					<h2><center>Work Experience</center></h2>
-					<h4><center>I am currently (Fall 2015) working two IT work study jobs on Connecticut College's campus.  The IT Service Desk on campus is one, where I diagnose and solve problems that students, faculty, or staff have with their devices whether that be personal computers, cell phones, or campus owned equipment.  I also work in the Network and Systems department as a Network Technician, repairing and managing the network on campus.  I have given one on one chess lessons as well, since the summer of 2015.  Lastly, I barbacked at a bar nearby my hometown while in high school.</center></h4>
+					<h4><center>I am currently (Fall 2015) working two federal work study jobs on Connecticut College's campus.  The IT Service Desk on campus is one, where I diagnose and solve problems that students, faculty, or staff have with their devices whether that be personal computers, cell phones, or campus owned equipment.  I also work in the Network and Systems department as a Network Technician, repairing and managing the network on campus.  I have given one on one chess lessons as well, since the summer of 2015.  Lastly, I barbacked at a bar nearby my hometown while in high school.</center></h4>
 				</div>
 			</div>
 
