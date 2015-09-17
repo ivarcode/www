@@ -81,7 +81,7 @@ File: index.php
 			<div class="row" id="info">
 				<div class="col-sm-12">
 					<h2><center>About Me</center></h2>
-					<h4><center>What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.  What exactly is it that I do regarding computers and chess? On this site you will find information about those things, but to make things simple, I made a list of some of the most impressive projects or contributions I have made. Here are links to some of my projects and activity in the chess and coding world.</center></h4>
+					<h4><center>Hi, my name is Camden Wagner and I am an 18 year old freshman (Class of 2019) at Connecticut College.  I am majoring in Computer Science with studies also in the Business and Economics fields.  I have significant coding experience in languages including Java, C, C++, HTML, PHP, CSS, Python, XML and more - several of my projects are detailed below.  Chess is my favorite hobby, I have played in many tournaments (also detailed below), run and participate in many chess clubs, and play online daily.  Other than that, I enjoy playing soccer and running as much as I can.</center></h4>
 				</div>
 			</div>
 			<hr>
