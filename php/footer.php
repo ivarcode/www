@@ -7,7 +7,7 @@
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-4">
 						<h6>About Us</h6>
-						<p>This is just a personal profile website created as a project itself to showcase other projects and identify my accomplishments.</p>
+						<p>I am just a college kid enjoying life and following my technological interests.  Feel free to contact me with any questions or business inqueries.</p>
 					</div> <!-- end col-sm-4 -->
 					<div class="col-sm-2">
 						<h6>Navigation</h6>
