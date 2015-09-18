@@ -32,12 +32,12 @@ File: index.php
 
 			<hr>
 			<hr>
-
+			<!--
 			<div class="row" id="info">
 				<div class="col-sm-12">
 					<h1><center>Camden I. Wagner</center></h1>
 				</div>
-			</div>
+			</div>-->
 
 			<div class="carousel slide" id="slideshow">
 				
