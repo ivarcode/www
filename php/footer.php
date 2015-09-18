@@ -28,7 +28,7 @@
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">
-						<h6>Coded by Camden I. Wagner</h6>
+						<h6>Coded by       Camden I. Wagner</h6>
 					</div> <!-- end col-sm-2 -->
 				</div> <!-- end row -->
 			</div> <!-- end container -->
