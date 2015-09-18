@@ -142,27 +142,27 @@ File: index.php
 					<h2>Chess</h2>
 					<p>I have played chess as a hobby since I learned the game when I was 5 years old.  I play online as well as compete in national tournaments.  I also enjoy running and participating in chess clubs at my school or in my community.</p>
 					<h3>Tournaments - USCF 1449</h3>
-					<p>Tournaments since March 2013</p>
+					<p>since March 2013</p>
 					<div class="list-group">
+						<a href="http://www.uschess.org/msa/XtblMain.php?201504268922.6-13599730" class="list-group-item">
+							<h4 class="list-group-item-heading">24th Annual Eastern Class Championships (MA)</h4>
+							<p class="list-group-item-text">04/24/2015 - 04/26/2015   CLASS D</p>
+						</a>
+						<a href="http://www.uschess.org/msa/XtblMain.php?201504050382.6-13599730" class="list-group-item">
+							<h4 class="list-group-item-heading">Philadelphia Open (PA)</h4>
+							<p class="list-group-item-text">04/01/2015 - 04/05/2015   UNDER 1400</p>
+						</a>
+						<a href="http://www.uschess.org/msa/XtblMain.php?201501199852.5-13599730" class="list-group-item">
+							<h4 class="list-group-item-heading">47th Annual Liberty Bell Open (PA)</h4>
+							<p class="list-group-item-text">01/16/2015 - 01/19/2015   UNDER 1500	</p>
+						</a>
+						<a href="http://www.uschess.org/msa/XtblMain.php?201403166162.7-13599730" class="list-group-item">
+							<h4 class="list-group-item-heading">Eastern Class Championships (MA)</h4>
+							<p class="list-group-item-text">03/14/2014 - 03/16/2014   CLASS E</p>
+						</a>
 						<a href="http://www.uschess.org/msa/XtblMain.php?201303173392.7-13599730" class="list-group-item">
 							<h4 class="list-group-item-heading">Eastern Class Championships (MA)</h4>
-							<p class="list-group-item-text">03/15/2013 - 03/17/2015   CLASS E</p>
-						</a>
-						<a href="./php/miners_deluxe_mod.php" class="list-group-item">
-							<h4 class="list-group-item-heading">Miners Deluxe Mod</h4>
-							<p class="list-group-item-text">PC Game Mod for the popular videogame Minecraft</p>
-						</a>
-						<a href="./php/message_encrypter.php" class="list-group-item">
-							<h4 class="list-group-item-heading">Message Encrypter Android App</h4>
-							<p class="list-group-item-text">Android App that encrypts and decrypts messages</p>
-						</a>
-						<a href="./php/cryptography.php" class="list-group-item">
-							<h4 class="list-group-item-heading">Cryptography Program</h4>
-							<p class="list-group-item-text">Java code written to encrypt and decrypt ciphers</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Music Multiplayer App</h4>
-							<p class="list-group-item-text">Music based Web or Android App currently in the early development stages - working with Jeremy Bader</p>
+							<p class="list-group-item-text">03/15/2013 - 03/17/2013   CLASS E</p>
 						</a>
 					</div><!-- end list-group -->
 					<h3>Chess</h3>
