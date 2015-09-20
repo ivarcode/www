@@ -20,6 +20,9 @@ File: contact.php
 		<!-- Custom CSS -->
 		<link href="../includes/css/styles.css" rel="stylesheet">
 		
+		<!-- including FireBase script -->
+		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
 	</head>
@@ -37,9 +40,10 @@ File: contact.php
 
 			<div class="row" id="info">
 				<div class="col-sm-12">
-					<img src="img/hs.png" class="thumbnail pull-left">
+					<center><input type="text" class="form-control" placeholder="Search this site..." id="searchInput"></center>
+					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
-					<p></p>
+					<p></p>-->
 				</div><!-- end col-sm-12 -->
 				<div class="col-sm-6">
 					

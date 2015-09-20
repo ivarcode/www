@@ -19,6 +19,9 @@ File: template.php
 		
 		<!-- Custom CSS -->
 		<link href="../includes/css/styles.css" rel="stylesheet">
+
+		<!-- including FireBase script -->
+		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
