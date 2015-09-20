@@ -34,6 +34,7 @@ File: contact.php
 			<?php include './header.php';?>
 
 			<hr>
+			<hr>
 
 			<div class="carousel slide" id="slideshow">
 			</div><!-- end slideshow -->
