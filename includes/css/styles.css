@@ -42,6 +42,24 @@ ul.unstyled {
 .navbar-brand {
    padding: 13px 15px;
 }
+
+
+/* --------------------------------------
+   Contact
+   -------------------------------------- */
+#contact_name {
+   width: 400px;
+}
+#contact_email {
+   width: 400px;
+}
+#contact_phone {
+   width: 400px;
+}
+#contact_inquiry {
+   width: 800px;
+   height: 400px;
+}
    
    
 /* --------------------------------------

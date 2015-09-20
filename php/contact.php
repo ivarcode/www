@@ -40,7 +40,15 @@ File: contact.php
 
 			<div class="row" id="info">
 				<div class="col-sm-12">
-					<center><input type="text" class="form-control" placeholder="Search this site..." id="searchInput"></center>
+					<h2><center>CONTACT ME</center></h2>
+					<p><center>Use the space below to contact me - or email me at <b>camden.i.wagner@ivarcode.net</b></center></p>
+					<hr>
+					<h3><center>Contact Information</center></h3>
+					<center><input type="text" class="form-control" placeholder="Name" id="contact_name"></center>
+					<center><input type="text" class="form-control" placeholder="Email Address" id="contact_email"></center>
+					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
+					<h3><center>Your Inquiry</center></h3>
+					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
 					<p></p>-->
