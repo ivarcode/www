@@ -49,6 +49,7 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
+					<center><button type="submit" class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
 					<hr>
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>

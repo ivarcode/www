@@ -60,6 +60,10 @@ ul.unstyled {
    width: 800px;
    height: 300px;
 }
+#inquiry_submit {
+   margin: 15px;
+   width: 100px;
+}
    
    
 /* --------------------------------------
