@@ -64,6 +64,7 @@ File: contact.php
 								phone: phone,
 								inquiry: inquiry
 							});
+							location.reload();
 						}
 					</script>
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
