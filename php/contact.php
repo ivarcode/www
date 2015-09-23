@@ -50,13 +50,19 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
-					<center><button type="submit" class="btn btn-default" onclick="saveInquiry("+document.getElementById("contact_name").value+","+document.getElementById("contact_email").value+","+document.getElementById("contact_phone").value+","+document.getElementById("contact_inquiry").value+")" id="inquiry_submit"><h4>Send</h4></button></center>
+					<center><button type="submit" class="btn btn-default" onclick="saveInquiry()" id="inquiry_submit"><h4>Send</h4></button></center>
 					<script type="text/javascript">
-						function saveInquiry(var name, var email, var phone, var inquiry) {
+						function saveInquiry() {
 							var ref = new FireBase('https://ivarcode-net.firebaseio.com/');
+							var name = document.getElementById("contact_name");
+							var email = document.getElementById("contact_email");
+							var phone = document.getElementById("contact_phone");
+							var inquiry = document.getElementById("contact_inquiry");
 							var userRef = ref.child(email);
 							userRef.set({
-								
+								name: name,
+								phone: phone,
+								inquiry: inquiry
 							});
 						}
 					</script>
