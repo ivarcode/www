@@ -47,7 +47,7 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
-					<center><button type="submit" class="btn btn-default" onclick="saveInquiry()" id="inquiry_submit"><h4>Send</h4></button></center>
+					<center><button type="submit" class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
 
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
@@ -78,7 +78,7 @@ File: contact.php
 					inquiry_submit = document.getElementById('inquiry_submit');
 
 					inquiry_submit.addEventListener('click', function() {
-						if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
+						//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
 							var emailRef = rootRef.child(contact_email.value),
 								nameRef = emailRef.child(name),
 								phoneRef = emailRef.child(phone),
@@ -93,7 +93,7 @@ File: contact.php
 							contact_name.value = '';
 							contact_phone.value = '';
 							contact_inquiry.value = '';
-						}
+						//}
 					});
 		</script>
 
