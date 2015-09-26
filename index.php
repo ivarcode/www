@@ -9,20 +9,20 @@ File: index.php
 		<!-- Website Title & Description -->
 		<title>ivarcode.net</title>
 		<meta name="description" content="">
-		
+
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
+
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-		
+
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
 
 		<!-- including FireBase script -->
 		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
-		
+
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 	</head>
@@ -43,7 +43,7 @@ File: index.php
 			</div>-->
 
 			<div class="carousel slide" id="slideshow">
-				
+
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li class="active" data-slide-to="0" data-target="#slideshow"></li>
@@ -51,7 +51,7 @@ File: index.php
 					<li data-slide-to="2" data-target="#slideshow"></li>
 				</ol>
 
-				<!-- Wrapper for slides -->	
+				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active" id="slide1">
 						<div class="carousel-caption">
@@ -76,7 +76,7 @@ File: index.php
 				<!-- Controls -->
 				<a class="left carousel-control" data-slide="prev" href="#slideshow"><span class="icon-prev"></span></a>
 				<a class="right carousel-control" data-slide="next" href="#slideshow"><span class="icon-next"></span></a>
-			
+
 			</div><!-- end slideshow -->
 
 			<hr>
@@ -96,7 +96,7 @@ File: index.php
 			</div>
 
 			<hr>
-	
+
 			<div class="row" id="info">
 				<div class="col-sm-6">
 					<h2>Projects</h2>
@@ -192,7 +192,7 @@ File: index.php
 		</div><!--end background -->
 
 		<?php include './php/footer.php';?>
-		
+
 		<!-- All Javascript at the bottom of the page for faster page loading -->
 		<!-- First try for the online version of jQuery-->
 		<script src="http://code.jquery.com/jquery.js"></script>
@@ -205,4 +205,3 @@ File: index.php
 
 	</body>
 </html>
-

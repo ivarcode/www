@@ -9,19 +9,16 @@ File: contact.php
 		<!-- Website Title & Description -->
 		<title>Contact</title>
 		<meta name="description" content="">
-		
+
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
+
 		<!-- Bootstrap CSS -->
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-		
+
 		<!-- Custom CSS -->
 		<link href="../includes/css/styles.css" rel="stylesheet">
-		
-		<!-- including FireBase script -->
-		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
@@ -30,7 +27,7 @@ File: contact.php
 		<div class="background">
 		<!-- Layout -->
 		<div class="container" id="main">
-			
+
 			<?php include './header.php';?>
 
 			<hr>
@@ -51,32 +48,17 @@ File: contact.php
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
 					<center><button type="submit" class="btn btn-default" onclick="saveInquiry()" id="inquiry_submit"><h4>Send</h4></button></center>
-					<script type="text/javascript">
-						function saveInquiry() {
-							var ref = new FireBase('https://ivarcode-net.firebaseio.com/');
-							var name = document.getElementById("contact_name");
-							var email = document.getElementById("contact_email");
-							var phone = document.getElementById("contact_phone");
-							var inquiry = document.getElementById("contact_inquiry");
-							var userRef = ref.child(email);
-							userRef.set({
-								name: name,
-								phone: phone,
-								inquiry: inquiry
-							});
-							location.reload();
-						}
-					</script>
+
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
 					<p></p>-->
 				</div><!-- end col-sm-12 -->
 				<div class="col-sm-6">
-					
+
 				</div><!-- end col-sm-6 -->
 
 				<div class="col-sm-6">
-					
+
 				</div><!-- end col-sm-6 -->
 			</div><!-- end info -->
 
@@ -84,6 +66,36 @@ File: contact.php
 		</div><!-- end container -->
 
 		</div><!--end background -->
+
+		<!-- including FireBase script -->
+		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+		<script>
+			var rootRef = new Firebase("https://ivarcode-net.firebaseio.com/"),
+					contact_name = document.getElementById('contact_name'),
+					contact_email = document.getElementById('contact_email'),
+					contact_phone = document.getElementById('contact_phone'),
+					contact_inquiry = document.getElementById('contact_inquiry'),
+					inquiry_submit = document.getElementById('inquiry_submit');
+
+					inquiry_submit.addEventListener('click', function() {
+						if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
+							var emailRef = rootRef.child(contact_email.value),
+								nameRef = emailRef.child(name),
+								phoneRef = emailRef.child(phone),
+								inquiryRef = emailRef.child(inquiry);
+
+							emailRef.set(contact_email.value);
+							nameRef.set(contact_name.value);
+							phoneRef.set(contact_phone.value);
+							inquiryRef.set(contact_inquiry.value);
+
+							contact_email.value = '';
+							contact_name.value = '';
+							contact_phone.value = '';
+							contact_inquiry.value = '';
+						}
+					});
+		</script>
 
 		<?php include './footer.php';?>
 
@@ -99,5 +111,3 @@ File: contact.php
 
 	</body>
 </html>
-
-
