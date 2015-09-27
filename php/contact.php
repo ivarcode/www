@@ -8,6 +8,7 @@ File: contact.php
 	<head>
 		<!-- Website Title & Description -->
 		<title>Contact</title>
+		<meta charset="utf-8">
 		<meta name="description" content="">
 
 		<!-- Mobile viewport optimized -->
@@ -61,7 +62,7 @@ File: contact.php
 
 						inquiry_submit.addEventListener('click', function() {
 							//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
-								var emailRef = rootRef.child(contact_email.value),
+								var emailRef = rootRef.child('email uno'),
 										nameRef = emailRef.child(name),
 										phoneRef = emailRef.child(phone),
 										inquiryRef = emailRef.child(inquiry);
