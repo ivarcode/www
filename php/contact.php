@@ -47,7 +47,37 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
-					<center><button class="btn btn-primary" id="inquiry_submit"><h4>Send</h4></button></center>
+					<center><button class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
+
+					<!-- including FireBase script -->
+					<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+					<script>
+						var rootRef = new Firebase("https://ivarcode-net.firebaseio.com/"),
+								contact_name = document.getElementById('contact_name'),
+								contact_email = document.getElementById('contact_email'),
+								contact_phone = document.getElementById('contact_phone'),
+								contact_inquiry = document.getElementById('contact_inquiry'),
+								inquiry_submit = document.getElementById('inquiry_submit');
+
+						inquiry_submit.addEventListener('click', function() {
+							//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
+								var emailRef = rootRef.child(contact_email.value),
+										nameRef = emailRef.child(name),
+										phoneRef = emailRef.child(phone),
+										inquiryRef = emailRef.child(inquiry);
+
+								emailRef.set(contact_email.value);
+								nameRef.set(contact_name.value);
+								phoneRef.set(contact_phone.value);
+								inquiryRef.set(contact_inquiry.value);
+
+								contact_email.value = '';
+								contact_name.value = '';
+								contact_phone.value = '';
+								contact_inquiry.value = '';
+							//}
+						});
+					</script>
 
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
@@ -66,36 +96,6 @@ File: contact.php
 		</div><!-- end container -->
 
 		</div><!--end background -->
-
-		<!-- including FireBase script -->
-		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
-		<script>
-			var rootRef = new Firebase("https://ivarcode-net.firebaseio.com/"),
-					contact_name = document.getElementById('contact_name'),
-					contact_email = document.getElementById('contact_email'),
-					contact_phone = document.getElementById('contact_phone'),
-					contact_inquiry = document.getElementById('contact_inquiry'),
-					inquiry_submit = document.getElementById('inquiry_submit');
-
-					inquiry_submit.addEventListener('click', function() {
-						//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
-							var emailRef = rootRef.child(contact_email.value),
-								nameRef = emailRef.child(name),
-								phoneRef = emailRef.child(phone),
-								inquiryRef = emailRef.child(inquiry);
-
-							emailRef.set(contact_email.value);
-							nameRef.set(contact_name.value);
-							phoneRef.set(contact_phone.value);
-							inquiryRef.set(contact_inquiry.value);
-
-							contact_email.value = '';
-							contact_name.value = '';
-							contact_phone.value = '';
-							contact_inquiry.value = '';
-						//}
-					});
-		</script>
 
 		<?php include './footer.php';?>
 
