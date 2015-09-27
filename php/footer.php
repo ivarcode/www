@@ -7,7 +7,7 @@
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-4">
 						<h6>About Us</h6>
-						<p>I am just a college kid enjoying life and following my technological interests.  Feel free to contact me with any questions or business inqueries.</p>
+						<p>I am just a college kid enjoying life and following my technological interests.  Feel free to contact me with any questions or business inquiries.</p>
 					</div> <!-- end col-sm-4 -->
 					<div class="col-sm-2">
 						<h6>Navigation</h6>

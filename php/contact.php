@@ -21,7 +21,7 @@ File: contact.php
 		<link href="../includes/css/styles.css" rel="stylesheet">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
+		<!--<script src="../includes/js/modernizr-2.6.2.min.js"></script>-->
 	</head>
 	<body>
 		<div class="background">
@@ -47,7 +47,7 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
-					<center><button type="submit" class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
+					<center><button class="btn btn-primary" id="inquiry_submit"><h4>Send</h4></button></center>
 
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
 					<h1>Camden Ivar Wagner</h1>
