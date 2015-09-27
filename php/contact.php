@@ -53,7 +53,7 @@ File: contact.php
 					<!-- including FireBase script -->
 					<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
 					<script>
-						var rootRef = new Firebase("https://ivarcode-net.firebaseio.com/"),
+						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com/'),
 								contact_name = document.getElementById('contact_name'),
 								contact_email = document.getElementById('contact_email'),
 								contact_phone = document.getElementById('contact_phone'),
@@ -62,7 +62,7 @@ File: contact.php
 
 						inquiry_submit.addEventListener('click', function() {
 							//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
-								var emailRef = rootRef.child('email uno'),
+								var emailRef = rootRef.child(contact_email.value),
 										nameRef = emailRef.child(name),
 										phoneRef = emailRef.child(phone),
 										inquiryRef = emailRef.child(inquiry);
