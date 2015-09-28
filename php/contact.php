@@ -54,13 +54,14 @@ File: contact.php
 					<script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
 					<script>
 						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com'),
-								contact_name = document.getElementById('contact_name'),
-								contact_email = document.getElementById('contact_email'),
-								contact_phone = document.getElementById('contact_phone'),
-								contact_inquiry = document.getElementById('contact_inquiry'),
-								inquiry_submit = document.getElementById('inquiry_submit');
+								contact_name = document.getElementById("contact_name"),
+								contact_email = document.getElementById("contact_email"),
+								contact_phone = document.getElementById("contact_phone"),
+								contact_inquiry = document.getElementById("contact_inquiry"),
+								inquiry_submit = document.getElementById("inquiry_submit");
 
-						inquiry_submit.addEventListener('click', function() {
+						inquiry_submit.addEventListener("click", sendClicked);
+						function sendClicked() {
 							//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
 								var emailRef = rootRef.child(contact_email.value),
 										nameRef = emailRef.child(name),
@@ -72,12 +73,13 @@ File: contact.php
 								phoneRef.set(contact_phone.value);
 								inquiryRef.set(contact_inquiry.value);
 
+								window.alert("test");
 								contact_email.value = '';
 								contact_name.value = '';
 								contact_phone.value = '';
 								contact_inquiry.value = '';
 							//}
-						});
+						}
 					</script>
 
 					<!--<img src="img/hs.png" class="thumbnail pull-left">
