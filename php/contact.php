@@ -51,9 +51,9 @@ File: contact.php
 					<center><button class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
 
 					<!-- including FireBase script -->
-					<script src="../includes/js/firebase.js"></script>
+					<script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
 					<script>
-						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com/'),
+						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com'),
 								contact_name = document.getElementById('contact_name'),
 								contact_email = document.getElementById('contact_email'),
 								contact_phone = document.getElementById('contact_phone'),
