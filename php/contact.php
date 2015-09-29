@@ -22,7 +22,7 @@ File: contact.php
 		<link href="../includes/css/styles.css" rel="stylesheet">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<!--<script src="../includes/js/modernizr-2.6.2.min.js"></script>-->
+		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 		<div class="background">
@@ -48,37 +48,32 @@ File: contact.php
 					<center><input type="text" class="form-control" placeholder="Phone Number (optional)" id="contact_phone"></center>
 					<h3><center>Your Inquiry</center></h3>
 					<center><textarea rows="5" id="contact_inquiry"></textarea></center>
-					<center><button class="btn btn-default" id="inquiry_submit"><h4>Send</h4></button></center>
+					<center><button class="btn btn-default" onclick="sendClicked()" id="inquiry_submit"><h4>Send</h4></button></center>
 
 					<!-- including FireBase script -->
 					<script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
 					<script>
-						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com'),
+						var rootRef = new Firebase('https://ivarcode-net.firebaseio.com/contact'),
+								inquiryRef = rootRef.child("inquiries"),
 								contact_name = document.getElementById("contact_name"),
 								contact_email = document.getElementById("contact_email"),
 								contact_phone = document.getElementById("contact_phone"),
 								contact_inquiry = document.getElementById("contact_inquiry"),
 								inquiry_submit = document.getElementById("inquiry_submit");
 
-						inquiry_submit.addEventListener("click", sendClicked);
 						function sendClicked() {
-							//if (contact_email != '' && contact_name != '' && contact_phone != '' && contact_inquiry != '' && ) {
-								var emailRef = rootRef.child(contact_email.value),
-										nameRef = emailRef.child(name),
-										phoneRef = emailRef.child(phone),
-										inquiryRef = emailRef.child(inquiry);
+							var newInquiryRef = inquiryRef.push();
+							newInquiryRef.set({
+								email: contact_email.value,
+								name: contact_name.value,
+								phone: contact_phone.value,
+								inquiry: contact_inquiry.value
+							});
 
-								emailRef.set(contact_email.value);
-								nameRef.set(contact_name.value);
-								phoneRef.set(contact_phone.value);
-								inquiryRef.set(contact_inquiry.value);
-
-								window.alert("test");
-								contact_email.value = '';
-								contact_name.value = '';
-								contact_phone.value = '';
-								contact_inquiry.value = '';
-							//}
+							contact_email.value = '';
+							contact_name.value = '';
+							contact_phone.value = '';
+							contact_inquiry.value = '';
 						}
 					</script>
 
