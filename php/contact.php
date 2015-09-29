@@ -62,14 +62,17 @@ File: contact.php
 								inquiry_submit = document.getElementById("inquiry_submit");
 
 						function sendClicked() {
-							var newInquiryRef = inquiryRef.push();
-							newInquiryRef.set({
-								email: contact_email.value,
-								name: contact_name.value,
-								phone: contact_phone.value,
-								inquiry: contact_inquiry.value
-							});
-
+							if (contact_name.value != '' && contact_email.value != '' && contact_inquiry.value != '') {
+								var newInquiryRef = inquiryRef.push();
+								newInquiryRef.set({
+									email: contact_email.value,
+									name: contact_name.value,
+									phone: contact_phone.value,
+									inquiry: contact_inquiry.value
+								});
+							} else {
+								window.alert("Please fill out the required fields.")
+							}
 							contact_email.value = '';
 							contact_name.value = '';
 							contact_phone.value = '';
