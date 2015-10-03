@@ -56,19 +56,19 @@ File: index.php
 					<div class="item active" id="slide1">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Computer Science" -->
-							<p>Software development is one of my interests and one of my strongest skills.  I code everything from websites to videogames and enjoy working with other people to create new and exciting projects.</p>
+							<p>null</p>
 						</div>
 					</div>
 					<div class="item" id="slide2">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Competitive Chess" -->
-							<p>I have been playing chess since a very young age and have always thoroughly enjoyed it.  I currently manage multiple chess clubs for children and kids my own age, as well as compete in national tournaments whenever I have the time.</p>
+							<p>null</p>
 						</div>
 					</div>
 					<div class="item" id="slide3">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Outdoors" -->
-							<p>I greatly value the time I spend outdoors as well.  I play soccer, I run distance road races, and enjoy camping or hiking mountains.</p>
+							<p>null</p>
 						</div>
 					</div>
 				</div><!-- end carousel-inner -->
