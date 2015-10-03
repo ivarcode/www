@@ -124,22 +124,6 @@ File: index.php
 							<p class="list-group-item-text">Music based Web or Android App currently in the early development stages - working with Jeremy Bader</p>
 						</a>
 					</div><!-- end list-group -->
-					<h3>Chess</h3>
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Competitive USCF Tournaments</h4>
-							<p class="list-group-item-text">National Chess Competition in the United States</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Private Tutoring</h4>
-							<p class="list-group-item-text">Chess Tutoring to make money for college</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Clubs</h4>
-							<p class="list-group-item-text">Several different clubs for various reasons</p>
-						</a>
-					</div><!-- end list-group -->
-					<p><!-- null --></p>
 				</div><!-- end col-sm-6 -->
 				<div class="col-sm-6">
 					<h2>Chess</h2>
