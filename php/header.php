@@ -36,10 +36,9 @@
 									</li>-->
 								</ul>
 							</li>
-							<!--
 							<li>
-								<a href="#">Chess</a>
-							</li>-->
+								<a href="./php/wip.php">Work-in-progress</a>
+							</li>
 							<li>
 								<a href="./php/contact.php">Contact</a>
 							</li>

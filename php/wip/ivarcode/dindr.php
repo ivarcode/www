@@ -32,6 +32,8 @@ File: dindr.php
 
 			<hr>
 
+			dindr
+
 			<div class="carousel slide" id="slideshow">
 			</div><!-- end slideshow -->
 
