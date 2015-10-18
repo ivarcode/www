@@ -34,6 +34,7 @@ File: wip.php
 			<?php include './header.php';?>
 
 			<hr>
+			<hr>
 
 			<center><h1><b>WORK IN PROGRESS PAGE</b></h1></center>
 			<center><h3>This page is designed to link to pages that are a work-in-progess, whether that be for this site or for another site.</h3></center>
