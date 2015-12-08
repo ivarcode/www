@@ -56,19 +56,19 @@ File: index.php
 					<div class="item active" id="slide1">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Computer Science" -->
-							<p>null</p>
+							<p></p>
 						</div>
 					</div>
 					<div class="item" id="slide2">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Competitive Chess" -->
-							<p>null</p>
+							<p></p>
 						</div>
 					</div>
 					<div class="item" id="slide3">
 						<div class="carousel-caption">
 							<h4>SITE UNDER CONSTRUCTION</h4> <!-- CHANGE BACK TO "Outdoors" -->
-							<p>null</p>
+							<p></p>
 						</div>
 					</div>
 				</div><!-- end carousel-inner -->
@@ -107,21 +107,21 @@ File: index.php
 							<h4 class="list-group-item-heading">ivarcode.net</h4>
 							<p class="list-group-item-text">Personal website I created to profile myself</p>
 						</a>
+						<a href="./php/chess_engine.php" class="list-group-item">
+							<h4 class="list-group-item-heading">Chess Engine</h4>
+							<p class="list-group-item-text">(WIP) Chess game with a computer that will play against you</p>
+						</a>
 						<a href="./php/miners_deluxe_mod.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Miners Deluxe Mod</h4>
 							<p class="list-group-item-text">PC Game Mod for the popular videogame Minecraft</p>
 						</a>
-						<a href="./php/message_encrypter.php" class="list-group-item">
-							<h4 class="list-group-item-heading">Message Encrypter Android App</h4>
-							<p class="list-group-item-text">Android App that encrypts and decrypts messages</p>
+						<a href="./php/elite300.php" class="list-group-item">
+							<h4 class="list-group-item-heading">elite300.com</h4>
+							<p class="list-group-item-text">Website designed and managed for Elite 300 Soccer Academy</p>
 						</a>
 						<a href="./php/cryptography.php" class="list-group-item">
 							<h4 class="list-group-item-heading">Cryptography Program</h4>
 							<p class="list-group-item-text">Java code written to encrypt and decrypt ciphers</p>
-						</a>
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Music Multiplayer App</h4>
-							<p class="list-group-item-text">Music based Web or Android App currently in the early development stages - working with Jeremy Bader</p>
 						</a>
 					</div><!-- end list-group -->
 				</div><!-- end col-sm-6 -->
