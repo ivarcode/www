@@ -8,7 +8,7 @@
 					<!--<div class="col-sm-4">
 						<h6>About Us</h6>
 						<p>null</p>
-					</div> -->
+					</div>
 					<div class="col-sm-2">
 						<h6>Navigation</h6>
 						<ul class="unstyled">
@@ -17,7 +17,7 @@
 							<li><a href="/php/staff.php">Staff</a></li>
 							<li><a href="/php/registration.php">Register</a></li>
 						</ul>
-					</div> <!-- end col-sm-2 -->
+					</div>
 					<div class="col-sm-2">
 						<h6>Connect With Us</h6>
 						<ul class="unstyled">
@@ -26,11 +26,11 @@
 							<li><a href="#">null</a></li>
 							<li><a href="#">null</a></li>
 						</ul>
-					</div> <!-- end col-sm-2 -->
+					</div> 
 					<div class="col-sm-2">
 						<h6>Coded By </h6>
 						<p>Camden I. Wagner</p>
-					</div> <!-- end col-sm-2 -->
+					</div>-->
 				</div> <!-- end row -->
 			</div> <!-- end container -->
 		</footer>
