@@ -1,13 +1,13 @@
 <!--
 Author: Camden I. Wagner
-File: coaches.php
+File: staff.php
 -->
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<!-- Website Title & Description -->
-		<title>Coaches</title>
+		<title>Staff</title>
 		<meta name="description" content="">
 
 		<!-- Mobile viewport optimized -->

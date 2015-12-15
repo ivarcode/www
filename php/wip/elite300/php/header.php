@@ -15,33 +15,24 @@
 							<li>
 								<a href="#"></a><!--keeping for margin-->
 							</li>
-							<li class="dropdown">
+							<!--<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">X <strong class="caret"></strong></a>
 								<ul class="dropdown-menu">
 									<li class="dropdown-header">X</li>
-									<li>
-										<a href="#">thing 1</a>
-									</li>
-									<li>
-										<a href="#">thing 2</a>
-									</li>
-									<!--
-									<li class="divider"></li>
-									<li class="dropdown-header">Collaborative Projects</li>
-									<li>
-										<a href="./php/cryptography.php">Cryptography Project</a>
-									</li>
-									<li>
-										<a href="#">Music Multiplayer App</a>
-									</li>-->
+									
 								</ul>
-							</li>
-							<!--
-							<li>
-								<a href="#">Chess</a>
 							</li>-->
 							<li>
-								<a href="./php/contact.php">Contact</a>
+								<a href="../index.php">Home</a>
+							</li>
+							<li>
+								<a href="./php/our_prog.php">Our Program</a>
+							</li>
+							<li>
+								<a href="./php/staff.php">Staff</a>
+							</li>
+							<li>
+								<a href="./php/register.php">Register</a>
 							</li>
 						</ul><!-- end nav -->
 
