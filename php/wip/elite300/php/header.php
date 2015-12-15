@@ -22,18 +22,10 @@
 									
 								</ul>
 							</li>-->
-							<li>
-								<a href="/">Home</a>
-							</li>
-							<li>
-								<a href="/php/our_prog.php">Our Program</a>
-							</li>
-							<li>
-								<a href="/php/staff.php">Staff</a>
-							</li>
-							<li>
-								<a href="/php/registration.php">Register</a>
-							</li>
+							<li><a href="/">Home</a></li>
+							<li><a href="/php/our_prog.php">Our Program</a></li>
+							<li><a href="/php/staff.php">Staff</a></li>
+							<li><a href="/php/registration.php">Register</a></li>
 						</ul><!-- end nav -->
 
 						<!--<form class="navbar-form pull-right">
