@@ -37,11 +37,18 @@ File: index.php
 			<hr>
 
 			<!-- TODO -->
-			<h1><center>Elite 300 Soccer Academy</center></h1>
-			<center><h4>July 2nd-6th  2015</h4></center>
-			<center><h4>July 6th-10th 2015</h4></center>
+			<!--<h1><center>Elite 300 Soccer Academy</center></h1>-->
+			
+			<center><h1><i>Elite 300 Soccer Academy</i></h1></center>
 
 			<center><a href="http://google.com"><button type="" name="register" style="background: url(./img/register_button300x75.png); width:300px; height:75px; border:none;"></button></a></center>
+			<center><h4>Session A: July 02 - 06, 2015</h4></center>
+			<center><h4>Session B: July 06 - 10, 2015</h4></center>
+
+			<center><h3>The Elite 300 Soccer Academy is the premier training camp in the country for high school boys.  The renowned staff includes some of the nation&rsquo;s top college coaches, from some of the top college and university soccer program in the country.</h3></center>
+			<center><h3>If you aspire to play at the college level, this is the best program for you.</h3></center>
+
+			<hr>
 
 			<div class="carousel slide" id="slideshow">
 
@@ -80,11 +87,7 @@ File: index.php
 
 			</div><!-- end slideshow -->
 
-			<hr>
-
-			<center><h2>Elite 300 Soccer Academy</h2></center>
-			<center><h4>The Elite 300 Soccer Academy is an multiple day, overnight soccer camp.... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan neque eu consectetur cursus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam non velit nibh. Vivamus ut diam at lorem semper feugiat. Donec tristique felis non purus interdum convallis at sit amet sem. Quisque sagittis dolor in suscipit ultrices. Ut elementum orci risus, eu molestie nisi laoreet sit amet. Proin bibendum magna mi, ac consectetur tortor euismod et. Donec venenatis, tortor nec tincidunt ullamcorper, augue ligula aliquam sem, vel finibus velit nisi in purus.</h4></center>
-
+			<!--
 			<div class="row" id="info">
 				<div class="col-sm-4">
 					<h3><center>Jonny Dolezal</center></h3>
@@ -137,7 +140,7 @@ File: index.php
 						<br>Helsingborgs IF (Swedish Premier League)</p>
 				</div>
 			</div>
-
+		-->
 
 		</div><!-- end container -->
 

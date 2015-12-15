@@ -8,7 +8,7 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="/php/"><img src="img/logo-small.png" alt="Your Logo"></a>
+					<!--<a class="navbar-brand" href="/php/"><img src="img/logo-small.png" alt="Your Logo"></a>-->
 
 					<div class="nav-collapse collapse navbar-responsive-collapse">
 						<ul class="nav navbar-nav">
@@ -23,23 +23,23 @@
 								</ul>
 							</li>-->
 							<li>
-								<a href="../index.php">Home</a>
+								<a href="/">Home</a>
 							</li>
 							<li>
-								<a href="./php/our_prog.php">Our Program</a>
+								<a href="/php/our_prog.php">Our Program</a>
 							</li>
 							<li>
-								<a href="./php/staff.php">Staff</a>
+								<a href="/php/staff.php">Staff</a>
 							</li>
 							<li>
-								<a href="./php/register.php">Register</a>
+								<a href="/php/registration.php">Register</a>
 							</li>
 						</ul><!-- end nav -->
 
-						<form class="navbar-form pull-right">
+						<!--<form class="navbar-form pull-right">
 							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
 							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-						</form><!-- end navbar-form pull-right -->
+						</form> end navbar-form pull-right -->
 
 					</div><!-- end nav-collapse -->
 
