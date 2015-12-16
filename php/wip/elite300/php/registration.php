@@ -34,6 +34,11 @@ File: registration.php
 			<?php include './header.php';?>
 
 			<hr>
+			<hr>
+
+			<center><h1>Registration</h1></center>
+
+			<hr>
 
 			<div class="carousel slide" id="slideshow">
 			</div><!-- end slideshow -->
