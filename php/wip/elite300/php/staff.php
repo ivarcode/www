@@ -34,6 +34,7 @@ File: staff.php
 			<?php include './header.php';?>
 
 			<hr>
+			<hr>
 
 			<center><h1>2015 Staff</h1></center>
 

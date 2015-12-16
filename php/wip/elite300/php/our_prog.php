@@ -34,6 +34,20 @@ File: our_prog.php
 			<?php include './header.php';?>
 
 			<hr>
+			<hr>
+
+			<center><h1>Our Program</h1></center>
+
+			<hr>
+
+			<center><h3>The Elite 300 Soccer Academy</h3></center>
+			<center><h7>__</h7></center>
+			<center><h3>The Elite 300 Juniors</h3></center>
+			<hr>
+			<h4>The Elite 300 Soccer Academy is the premier training camp in the country for high school boys.  The renowned staff includes some of the nation&rsquo;s top college coaches, from some of the top college and university soccer program in the country.</h4>
+			<h4>Our training program challenges the Elite 300 Soccer Academy participants to improve their technical, tactical, and physical abilities, as well as introducing the mental and emotional aspects of the college game to through our unique Sports Psychology Seminar.  We also host the popular College Recruiting Seminar, which helps aspiring college players to navigate the intricate and sometimes confusing world of the college soccer recruiting process.</h4>
+			<h4>The outstanding facilities at Swarthmore College, the challenging and competitive program, and the matches against top-level competitive soccer players from all over the country and around the world will enable each Elite 300 Soccer Academy player to have a great opportunity to showcase their abilities during the session.</h4>
+			<h4>Similarly, the Elite 300 Juniors - for boys entering grades 6 - 8...</h4>
 
 			<div class="carousel slide" id="slideshow">
 			</div><!-- end slideshow -->
