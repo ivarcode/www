@@ -25,7 +25,7 @@
 							<li><a href="/">Home</a></li>
 							<li><a href="/php/our_prog.php">Our Program</a></li>
 							<li><a href="/php/staff.php">Staff</a></li>
-							<li><a href="/php/registration.php">Register</a></li>
+							<li><a href="https://thriva.activenetwork.com/Reg4/Form.aspx?IDTD=3707797&RF=11711005">Register</a></li>
 						</ul><!-- end nav -->
 
 						<!--<form class="navbar-form pull-right">
