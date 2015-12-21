@@ -7,7 +7,8 @@ File: styles.css
    Layout
    -------------------------------------- */
 .background {
-   background-image: url("../../img/bg_image.jpg");
+   /*background-image: url("../../img/bg_image.jpg");*/
+   background-color: #006bb3;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;

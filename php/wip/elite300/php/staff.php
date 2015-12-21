@@ -36,6 +36,8 @@ File: staff.php
 			<hr>
 			<hr>
 
+			<center><img src="./img/logo.png"></center>
+
 			<center><h1>2015 Staff</h1></center>
 
 			<hr>
@@ -43,12 +45,12 @@ File: staff.php
 			<div class="row" id="coach_list">
 				<div class="col-sm-12" id="coaches">
 					<h3>Rudy Fuller</h3>
-					<img src="http://placehold.it/100" class="pull-left" id="coach-bio">
+					<img src="./img/rfuller.jpg" class="pull-left" id="coach-bio">
 					<p>The James C. Gentle Head Coach of Men&rsquo;s Soccer, Rudy Fuller enters his 18th season at the helm of the University of Pennsylvania men&rsquo;s soccer program in 2015. In his tenure at Penn, Fuller has elevated the Quakers&rsquo; notoriety in the Ivy League and nationally. From renovating Rhodes Field to recruiting some of the best players in the country and stacking the Quakers&rsquo; schedule with NCAA contenders, Fuller&rsquo;s club has established itself as one of the nation&rsquo;s elite soccer programs.</p><p>The 2013 season saw Fuller&rsquo;s team do something no Penn club had done since 1972 -- win an outright Ivy League championship...  <a href="/php/staff/rfuller.php">view full bio</a></p>
 				</div>
 				<div class="col-sm-12" id="coaches">
 					<h3>Keith Tabatznik</h3>
-					<img src="http://placehold.it/100" class="pull-left" id="coach-bio">
+					<img src="./img/ktabatznik.jpg" class="pull-left" id="coach-bio">
 					<p>In 1994, Keith was named the South Atlantic Region and BIG EAST Coach of the Year after leading the Hoyas to an incredible 18-4 record and the school&rsquo;s first-ever berth in the NCAA Championship as well as its first BIG EAST Regular Season Title. Thirteen former Hoyas have become professional players.</p><p>In addition to taking Hoya soccer to new heights, Keith has been an integral part of the U.S. youth development programs. In 2004 he was appointed as the Director of the Maryland Olympic Development program - a position he had held previously from 1989 to 1997...  <a href="/php/staff/ktabatznik.php">view full bio</a></p>
 				</div>
 				<div class="col-sm-12" id="coaches">

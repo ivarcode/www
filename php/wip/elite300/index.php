@@ -36,10 +36,11 @@ File: index.php
 			<hr>
 			<hr>
 
-			<!-- TODO -->
-			<!--<h1><center>Elite 300 Soccer Academy</center></h1>-->
 			
-			<center><h1><i>Elite 300 Soccer Academy</i></h1></center>
+			<center><img src="./img/logo.png"></center>
+			<p></p>
+			
+			<!--<center><h1><i>Elite 300 Soccer Academy</i></h1></center>-->
 
 			<center><a href="https://thriva.activenetwork.com/Reg4/Form.aspx?IDTD=3707797&RF=11711005"><button type="" name="register" style="background: url(./img/register_button300x75.png); width:300px; height:75px; border:none;"></button></a></center>
 			<center><h4>Session 1: July 02 - 06, 2015</h4></center>
@@ -86,6 +87,8 @@ File: index.php
 				<a class="right carousel-control" data-slide="next" href="#slideshow"><span class="icon-next"></span></a>
 
 			</div><!-- end slideshow -->
+
+			<hr>
 
 			<!--
 			<div class="row" id="info">
