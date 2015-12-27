@@ -24,7 +24,7 @@
 							<li><a href="https://plus.google.com/114141582683736470404/posts">Google</a></li>
 							<li><a href="https://www.linkedin.com/in/camdeniwagner">LinkedIn</a></li>
 							<li><a href="https://github.com/awesomemancam">GitHub</a></li>
-							<li><a href="http://www.chess.com/members/view/awesomemancam">Chess.com</a></li>
+							<li><a href="http://en.lichess.org/@/awesomemancam">lichess.org</a></li>
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">
