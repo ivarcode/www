@@ -19,6 +19,9 @@ File: chess.php
 		
 		<!-- Custom CSS -->
 		<link href="../includes/css/styles.css" rel="stylesheet">
+
+		<!-- including FireBase script -->
+		<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="../includes/js/modernizr-2.6.2.min.js"></script>
@@ -27,8 +30,13 @@ File: chess.php
 		<div class="background">
 		<!-- Layout -->
 		<div class="container" id="main">
+
+			<hr>
+			<hr>
 			
 			<?php include './header.php';?>
+
+			<h1>Currently no content.  Come back soon.</h1>
 
 			<hr>
 
@@ -37,8 +45,7 @@ File: chess.php
 
 			<div class="row" id="info">
 				<div class="col-sm-6">
-					<h2>Chess Tutoring</h2>
-					<p>Contact me at camden.i.wagner@ivarcode.net if you are interested in chess lessons!</p>
+					
 				</div><!-- end col-sm-6 -->
 
 				<div class="col-sm-6">
