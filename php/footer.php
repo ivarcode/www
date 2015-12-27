@@ -13,9 +13,9 @@
 						<h6>Navigation</h6>
 						<ul class="unstyled">
 							<li><a href="/">Home</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="./php/wip.php">Work-in-progress</a></li>
-							<li><a href="./php/contact.php">Contact</a></li>
+							<!--<li><a href="#">Projects</a></li>-->
+							<li><a href="/php/wip.php">Work-in-progress</a></li>
+							<li><a href="/php/contact.php">Contact</a></li>
 						</ul>
 					</div> <!-- end col-sm-2 -->
 					<div class="col-sm-2">

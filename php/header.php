@@ -37,17 +37,17 @@
 								</ul>
 							</li>
 							<li>
-								<a href="./php/wip.php">Work-in-progress</a>
+								<a href="/php/wip.php">Work-in-progress</a>
 							</li>
 							<li>
-								<a href="./php/contact.php">Contact</a>
+								<a href="/php/contact.php">Contact</a>
 							</li>
 						</ul><!-- end nav -->
 
-						<form class="navbar-form pull-right">
+						<!--<form class="navbar-form pull-right">
 							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
 							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-						</form><!-- end navbar-form pull-right -->
+						</form>-->
 
 					</div><!-- end nav-collapse -->
 
