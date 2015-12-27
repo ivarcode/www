@@ -43,6 +43,11 @@
 								<a href="/php/contact.php">Contact</a>
 							</li>
 						</ul><!-- end nav -->
+						<ul class="nav navbar-nav pull-right">
+							<li>
+								<a href="https://github.com/ivarcode/www">Site Source</a>
+							</li>
+						</ul><!-- end nav -->
 
 						<form class="navbar-form pull-right">
 							<a href="https://github.com/ivarcode/www">Site Source</a>
