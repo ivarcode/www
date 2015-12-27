@@ -49,9 +49,6 @@
 							</li>
 						</ul><!-- end nav -->
 
-						<form class="navbar-form pull-right">
-							<a href="https://github.com/ivarcode/www">Site Source</a>
-						</form>
 						<!--<form class="navbar-form pull-right">
 							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
 							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
