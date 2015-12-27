@@ -15,7 +15,7 @@
 							<li>
 								<a href="#"></a><!--keeping for margin-->
 							</li>
-							<li class="dropdown">
+							<!--<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <strong class="caret"></strong></a>
 								<ul class="dropdown-menu">
 									<li class="dropdown-header">Solo Projects</li>
@@ -25,7 +25,7 @@
 									<li>
 										<a href="https://github.com/awesomemancam/MinersDeluxe-v2.2.4">Miners Deluxe Mod</a>
 									</li>
-									<!--
+									
 									<li class="divider"></li>
 									<li class="dropdown-header">Collaborative Projects</li>
 									<li>
@@ -33,9 +33,9 @@
 									</li>
 									<li>
 										<a href="#">Music Multiplayer App</a>
-									</li>-->
+									</li>
 								</ul>
-							</li>
+							</li>-->
 							<li>
 								<a href="/php/wip.php">Work-in-progress</a>
 							</li>
@@ -44,6 +44,9 @@
 							</li>
 						</ul><!-- end nav -->
 
+						<form class="navbar-form pull-right">
+							<a href="https://github.com/ivarcode/www">Site Source</a>
+						</form>
 						<!--<form class="navbar-form pull-right">
 							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
 							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
