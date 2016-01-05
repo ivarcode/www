@@ -42,6 +42,10 @@ File: staff.php
 
 			<hr>
 
+			<center><h3>These college & university soccer programs are represented on the Elite 300 Soccer Academy staff:</h3></center>
+
+			<a href="http://camelathletics.com/sports/msoc/index" title="Connecticut College"><img src="./img/connecticut_college_logo.jpg"></a>
+
 			<div class="row" id="coach_list">
 				<div class="col-sm-12" id="coaches">
 					<h3>Rudy Fuller</h3>
