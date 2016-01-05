@@ -7,7 +7,7 @@ File: registration.php
 <html>
 	<head>
 		<!-- Website Title & Description -->
-		<title>Register</title>
+		<title>Tuition and Registration</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -36,7 +36,7 @@ File: registration.php
 			<hr>
 			<hr>
 
-			<center><h1>Registration</h1></center>
+			<center><h1>Tuition and Registration</h1></center>
 
 			<hr>
 
