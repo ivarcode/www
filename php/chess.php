@@ -36,7 +36,9 @@ File: chess.php
 			
 			<?php include './header.php';?>
 
-			<h1>Currently no content.  Come back soon.</h1>
+			<center>
+				<applet code="./chessapp/bin/net/ivarcode/camden/Main.class" width="600" height="600">java applet</applet>
+			</center>
 
 			<hr>
 
