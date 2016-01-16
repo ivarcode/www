@@ -37,7 +37,7 @@ File: chess.php
 			<?php include './header.php';?>
 
 			<center>
-				<applet code="./chessapp/bin/net/ivarcode/camden/Main.class" width="600" height="600">java applet</applet>
+				<object codetype="application/java" classid="java:Main.class" width=300 height=300></object>
 			</center>
 
 			<hr>
