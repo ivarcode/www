@@ -23,7 +23,28 @@ File: index.php
 
 		<section id="cover">
 			<div id="cover-caption">
-				
+				<div class="container">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h1 class="display-3">ivarcode.net</h1>
+						<p>project in development</p>
+
+						<form action="" class="form-inline">
+							<div class="form-group">
+								<label class="sr-only">Name</label>
+								<input type="text" class="form-control form-control-lg" placeholder="Jane Doe">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Email</label>
+								<input type="text" class="form-control form-control-lg" placeholder="jane.doe@example.com">
+							</div>
+							<button type="submit" class="btn btn-success btn-lg">okay, go!</button>
+						</form>
+
+						<br>
+
+						<a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
+					</div>
+				</div>
 			</div>
 		</section>
 
