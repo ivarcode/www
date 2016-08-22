@@ -126,9 +126,7 @@ File: index.php
 						<h6>Copyright &copy; 2016 C.I.W.</h6>
 						<p>coded by Camden I. Wagner</p>
 					</div>
-					<div class="col-sm-3">
-						
-					</div>
+					<div class="col-sm-3"></div>
 					<div class="col-sm-5"></div>
 					<div class="col-sm-1">
 						<ul class="list-unstyled">
