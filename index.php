@@ -106,11 +106,11 @@ File: index.php
 							<p class="lead">I am Camden Wagner, currently a college student studying computer science at Connecticut College ('19).\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Minima culpa nostrum voluptates praesentium quia, quae, dolor aperiam possimus architecto, tempore unde! Quasi fugit voluptate, maiores adipisci commodi nemo rem cumque.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum mollitia sit dolorem autem qui possimus ex voluptate, voluptatibus iste unde numquam illum, molestiae reprehenderit, eligendi. Illum quod esse voluptatibus.</p>
 
-							<h5>Follow me on the web</h5>
+							<p><b>email me at </b> camden.i.wagner@ivarcode.net</p>
+							<p>Follow me on the web</p>
 							<a href="" class="btn btn-sm btn-secondary-outline">twitter</a>
 							<a href="" class="btn btn-sm btn-secondary-outline">facebook</a>
 							<a href="" class="btn btn-sm btn-secondary-outline">youtube</a>
-							<p><b>email me at</b>camden.i.wagner@ivarcode.net</p>
 						</div>
 					</div>
 				</div>
