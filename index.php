@@ -30,11 +30,11 @@ File: index.php
 				<div class="container">
 					<div class="col-sm-12 col-sm-offset-1">
 						<h1 class="display-3">ivarcode.net</h1>
-						<p>want less of me and more chess? click the button below</p>
+						<p>development v0.0</p>
 
 						<form action="" class="form-inline">
 							
-							<button type="submit" class="btn btn-success btn-lg">take me to chess!</button>
+							<button type="submit" class="btn btn-success btn-lg">this button doesn't work yet!</button>
 						</form>
 
 						<br>
@@ -62,7 +62,7 @@ File: index.php
 									<img height="250" src="img/Servers_BackCables1.jpg" alt="server image">
 									<div class="card-block">
 										<p class="card-text"><b>Tech Support</b> at the IT Service Desk at Connecticut College<br><b>Network Technician</b> at the Network &amp; Systems Department at Connecticut College</p>
-										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+										
 									</div>
 								</div>
 
@@ -74,7 +74,7 @@ File: index.php
 									<img height="250" width="369" src="img/html-code.jpg" alt="html code image">
 									<div class="card-block">
 										<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www">source code</a> of the very site you are on right now<br><b>Chess Website</b> asiring to be a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
-										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+										
 									</div>
 								</div>
 
@@ -86,7 +86,7 @@ File: index.php
 									<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 									<div class="card-block">
 										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a> - my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a><br><b>Online</b> pretty much daily at <a href="https://en.lichess.org">lichess.org</a> - here is a link to <a href="https://en.lichess.org/@/ivarcode">my profile</a><br><b>Tutor</b> anyone who wants to learn more about the game - contact me if you're interested!</p>
-										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+										
 									</div>
 								</div>
 							</div>
