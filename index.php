@@ -117,6 +117,8 @@ File: index.php
 			</div>
 		</section>
 
+		<hr class="hr-set_1">
+
 		<footer id="footer-main">
 			<div class="container">
 				<div class="row">
