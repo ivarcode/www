@@ -25,7 +25,7 @@ File: index.php
 	</head>
 	<body>
 
-		<section id="cover">
+		<section id="cover" name="cover">
 			<div id="cover-caption">
 				<div class="container">
 					<div class="col-sm-12 col-sm-offset-1">
@@ -45,7 +45,7 @@ File: index.php
 			</div>
 		</section>
 
-		<section id="what-i-do">
+		<section id="what-i-do" name="what-i-do">
 			<div class="section-content">
 				<div class="container">
 					<h2>What I do</h2>
@@ -85,7 +85,7 @@ File: index.php
 									</div>
 									<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 									<div class="card-block">
-										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a><br>link to my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a></p>
+										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a> - my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a><br><b>Online</b> pretty much daily at <a href="https://en.lichess.org">lichess.org</a> - my profile <a href="https://en.lichess.org/@/ivarcode">here</a></p>
 										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
 									</div>
 								</div>
@@ -96,7 +96,7 @@ File: index.php
 			</div>
 		</section>
 
-		<section id="about">
+		<section id="about" name="aboutme">
 			<div class="section-content">
 				<div class="container">
 					<div class="col-md-6">
@@ -130,9 +130,9 @@ File: index.php
 					<div class="col-sm-5"></div>
 					<div class="col-sm-1">
 						<ul class="list-unstyled">
-							<li><a href="">home</a></li>
-							<li><a href="">what i do</a></li>
-							<li><a href="">about me</a></li>
+							<li><a href="#cover">home</a></li>
+							<li><a href="#what-i-do">what i do</a></li>
+							<li><a href="#aboutme">about me</a></li>
 						</ul>
 					</div>
 				</div>
