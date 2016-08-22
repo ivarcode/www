@@ -57,11 +57,11 @@ File: index.php
 								<div class="card">
 									<div class="card-block">
 										<h4 class="card-title">Work Experience</h4>
-										<h6 class="card-subtitle">subtitle</h6>
+										<h6 class="card-subtitle">Tech Support &amp; Network Tech</h6>
 									</div>
 									<img height="250" src="img/Servers_BackCables1.jpg" alt="server image">
 									<div class="card-block">
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										<p class="card-text"><b>Tech Support</b> at the IT Service Desk at Connecticut College<br><b>Network Technician</b> at the Network &amp; Systems Department at Connecticut College</p>
 										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
 									</div>
 								</div>
@@ -69,7 +69,7 @@ File: index.php
 								<div class="card">
 									<div class="card-block">
 										<h4 class="card-title">Projects</h4>
-										<h6 class="card-subtitle">Support card subtitle</h6>
+										<h6 class="card-subtitle">Comp Sci web projects, games...</h6>
 									</div>
 									<img height="250" width="369" src="img/html-code.jpg" alt="html code image">
 									<div class="card-block">
@@ -81,7 +81,7 @@ File: index.php
 								<div class="card">
 									<div class="card-block">
 										<h4 class="card-title">Chess</h4>
-										<h6 class="card-subtitle">Support card subtitle</h6>
+										<h6 class="card-subtitle">Tournament Competer &amp; Hobbyist</h6>
 									</div>
 									<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 									<div class="card-block">
