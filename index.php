@@ -49,7 +49,7 @@ File: index.php
 			<div class="section-content">
 				<div class="container">
 					<h2>What I do</h2>
-					<p class="lead">I am an experienced computer programmer in many languages including but not limited to: Java, C, C++, HTML, Javascript, PHP, CSS, Python and XML.  I am currently working on some personal projects, as well as working at Connecticut College as a network technician and as technical support at the college's IT Service Desk.  I play chess in my free time online, tutor kids and adults, and play at a competitive level in <a href="https://new.uschess.org/home/">USCF tournaments</a>.</p>
+					<p class="lead">I am an experienced computer programmer in many languages including but not limited to: Java, C, C++, HTML, Javascript, PHP, CSS, Python and XML.  I am currently working on some personal projects, as well as working at Connecticut College as a network technician and as technical support at the college's IT Service Desk.  I play chess in my free time online, tutor kids and adults, and play at a competitive level in <a href="https://new.uschess.org/home/" target="_blank">USCF tournaments</a>.</p>
 
 					<div class="row">
 						<div class="col-sm-12">
@@ -73,7 +73,7 @@ File: index.php
 									</div>
 									<img height="250" width="369" src="img/html-code.jpg" alt="html code image">
 									<div class="card-block">
-										<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www">source code</a> of the very site you are on right now<br><b>Chess Website</b> asiring to be a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
+										<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www" target="_blank">source code</a> of the very site you are on right now<br><b>Chess Website</b> asiring to be a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt" target="_blank">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
 										
 									</div>
 								</div>
@@ -85,7 +85,7 @@ File: index.php
 									</div>
 									<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 									<div class="card-block">
-										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a> - my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a><br><b>Online</b> pretty much daily at <a href="https://en.lichess.org">lichess.org</a> - here is a link to <a href="https://en.lichess.org/@/ivarcode">my profile</a><br><b>Tutor</b> anyone who wants to learn more about the game - contact me if you're interested!</p>
+										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/" target="_blank">US Chess Federation</a> - my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730" target="_blank">here</a><br><b>Online</b> pretty much daily at <a href="https://en.lichess.org" target="_blank">lichess.org</a> - here is a link to <a href="https://en.lichess.org/@/ivarcode" target="_blank">my profile</a><br><b>Tutor</b> anyone who wants to learn more about the game - contact me if you're interested!</p>
 										
 									</div>
 								</div>
@@ -107,10 +107,10 @@ File: index.php
 							<p>I am always interested in taking up new projects or startups with other like-minded entrepreneurs. I am also a college student so I am in the market for hiring... if you have any interest in working together do not hesitate to contact me.</p>
 							<hr class="hr-set_1">
 							<p><b>Contact Me</b><br>camden.i.wagner@ivarcode.net<br>cell: (610) 999 0946</p>
-							<a class="ico_img" href="https://plus.google.com/u/1/114141582683736470404" alt="Google"><img width="48" height="48" src="img/1471913200_googleplus.png"></a>
-							<a class="ico_img" href="https://github.com/ivarcode" alt="GitHub"><img width="48" height="48" src="img/1471913186_github.png"></a>
-							<a class="ico_img" href="https://www.linkedin.com/in/camdeniwagner" alt="LinkedIn"><img width="48" height="48" src="img/1471913197_linkedin.png"></a>
-							<a class="ico_img" href="https://www.facebook.com/camden.i.wagner" alt="Facebook"><img width="48" height="48" src="img/1471913192_facebook.png"></a>
+							<a class="ico_img" href="https://plus.google.com/u/1/114141582683736470404" alt="Google" target="_blank"><img width="48" height="48" src="img/1471913200_googleplus.png"></a>
+							<a class="ico_img" href="https://github.com/ivarcode" alt="GitHub" target="_blank"><img width="48" height="48" src="img/1471913186_github.png"></a>
+							<a class="ico_img" href="https://www.linkedin.com/in/camdeniwagner" alt="LinkedIn" target="_blank"><img width="48" height="48" src="img/1471913197_linkedin.png"></a>
+							<a class="ico_img" href="https://www.facebook.com/camden.i.wagner" alt="Facebook" target="_blank"><img width="48" height="48" src="img/1471913192_facebook.png"></a>
 						</div>
 					</div>
 				</div>
