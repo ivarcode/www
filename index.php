@@ -81,11 +81,11 @@ File: index.php
 								<div class="card">
 									<div class="card-block">
 										<h4 class="card-title">Chess</h4>
-										<h6 class="card-subtitle">Tournament Competer &amp; Hobbyist</h6>
+										<h6 class="card-subtitle">Tournament Competitor &amp; Hobbyist</h6>
 									</div>
 									<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 									<div class="card-block">
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium.</p>
+										<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a><br>link to my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a></p>
 										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
 									</div>
 								</div>
@@ -103,14 +103,14 @@ File: index.php
 						<div class="about-text">
 							<img id="cwagner_hs" class="float_right" width="200" height="300" src="img/cwagner_hs.jpg" alt="cwagner_hs image file"></img>
 							<h3>About me</h3>
-							<p class="lead">I am Camden Wagner, currently a college student studying computer science at Connecticut College ('19).\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Minima culpa nostrum voluptates praesentium quia, quae, dolor aperiam possimus architecto, tempore unde! Quasi fugit voluptate, maiores adipisci commodi nemo rem cumque.</p>
+							<p class="lead">Currently, I am a sophomore computer science major at Connecticut College in New London, Connecticut. Born outside of Austin, Texas, I grew up in Swarthmore, Pennsylvania, playing soccer, discovering the intrigue of chess, as well as developing a passion for computer programming. In my free time, I enjoy traveling to visit friends and family, and am always happy to spend time with my dog Chester.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum mollitia sit dolorem autem qui possimus ex voluptate, voluptatibus iste unde numquam illum, molestiae reprehenderit, eligendi. Illum quod esse voluptatibus.</p>
-
-							<p><b>email me at </b> camden.i.wagner@ivarcode.net</p>
-							<p>Follow me on the web</p>
-							<a href="" class="btn btn-sm btn-secondary-outline">twitter</a>
-							<a href="" class="btn btn-sm btn-secondary-outline">facebook</a>
-							<a href="" class="btn btn-sm btn-secondary-outline">youtube</a>
+							<hr class="hr-set_1">
+							<p><b>Contact Me</b><br>camden.i.wagner@ivarcode.net<br>cell: (610) 999 0946</p>
+							<a class="ico_img" href="https://plus.google.com/u/1/114141582683736470404" alt="Google"><img width="48" height="48" src="img/1471913200_googleplus.png"></a>
+							<a class="ico_img" href="https://github.com/ivarcode" alt="GitHub"><img width="48" height="48" src="img/1471913186_github.png"></a>
+							<a class="ico_img" href="https://www.linkedin.com/in/camdeniwagner" alt="LinkedIn"><img width="48" height="48" src="img/1471913197_linkedin.png"></a>
+							<a class="ico_img" href="https://www.facebook.com/camden.i.wagner" alt="Facebook"><img width="48" height="48" src="img/1471913192_facebook.png"></a>
 						</div>
 					</div>
 				</div>

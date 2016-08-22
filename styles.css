@@ -43,6 +43,9 @@ img {
     background: url('img/IMG_3635_web-X2.jpg') center center no-repeat;
     background-size: cover;
 }
+.ico_img {
+	margin: 5px;
+}
 
 
 .section-content {
@@ -60,6 +63,10 @@ img {
     color: white;
     font-size: 0.8rem;
     padding: 2.5rem 0;
+}
+#footer-main a {
+	font-size: 14px;
+	color: teal;
 }
 
 
