@@ -27,3 +27,43 @@ img {
 #cover-caption {
     width: 100%;
 }
+
+/* about */
+
+#about {
+    background: url('img/IMG_3635_web-X2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#cwagner_hs {
+	 
+	
+}
+
+
+
+.section-content {
+    padding: 5rem 0;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+
+
+
+
+.float_right {
+    float: right;
+    padding: 10px;
+}
