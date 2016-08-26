@@ -39,14 +39,12 @@ img {
 
 
 /* what i do */
-
 #what-i-do {
 	background: #FFFFFF;
 }
 
 
 /* about */
-
 #about {
     background: url('img/IMG_3635_web-X2.jpg') center center no-repeat;
     background-size: cover;
@@ -82,7 +80,6 @@ img {
 
 
 /* general class css */
-
 .float_right {
     float: right;
     padding: 10px;

@@ -21,6 +21,11 @@ File: index.php
     
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="styles.css">
+
+		<!-- Custom JS -->
+		<script type="text/javascript">
+			
+		</script>
     
 	</head>
 	<body>
