@@ -26,10 +26,12 @@ img {
     align-items: center;
 }
 .cover-link {
-    font-size: 28px;
+    font-size:28px;
     color: #BAC1C8;
     margin: 25px;
-
+}
+.cover-link:hover {
+    color:#EAECEE;
 }
 #cover-caption {
     width: 100%;
