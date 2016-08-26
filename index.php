@@ -29,17 +29,17 @@ File: index.php
 			<div id="cover-caption">
 				<div class="container">
 					<div class="col-sm-12 col-sm-offset-1">
-						<h1 class="display-3">ivarcode.net</h1>
-						<p>want less of me and more chess? click the button below</p>
+						<h1 style="font-size:84px;color:#888B8D;">ivarcode.net</h1>
 
-						<form action="" class="form-inline">
-							
-							<button type="submit" class="btn btn-success btn-lg">take me to chess!</button>
+						<form style="margin-top:30px;" action="" class="form-inline">
+							<a class="cover-link" href="#what-i-do">what i do</a>
+							<a class="cover-link" href="#about">about me</a>
+							<a class="cover-link" href="#" title="this button doesn't work yet :D">chess</a>
 						</form>
 
 						<br>
 
-						<a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
+						<!-- <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a> -->
 					</div>
 				</div>
 			</div>
