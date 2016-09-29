@@ -24,7 +24,9 @@ File: index.php
 
 		<!-- Custom JS -->
 		<script type="text/javascript">
-			
+			$(document).ready(function(){
+    			$('[data-toggle="popover"]').popover(); 
+			});
 		</script>
     
 	</head>
@@ -67,6 +69,7 @@ File: index.php
 									<img height="250" src="img/Servers_BackCables1.jpg" alt="server image">
 									<div class="card-block">
 										<p class="card-text"><b>Tech Support</b> at the IT Service Desk at Connecticut College<br><b>Network Technician</b> at the Network &amp; Systems Department at Connecticut College</p>
+										<a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
 										<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
 									</div>
 								</div>
