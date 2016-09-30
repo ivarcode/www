@@ -66,9 +66,8 @@ File: index.php
 								</div>
 								<img height="250" src="img/Servers_BackCables1.jpg" alt="server image">
 								<div class="card-block">
-									<p class="card-text"><b>Tech Support</b> at the IT Service Desk at Connecticut College<br><b>Network Technician</b> at the Network &amp; Systems Department at Connecticut College</p>
-									<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Top">Top popover</button>
-									<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+									<p class="card-text"><b>Tech Support</b> at the <a href="https://www.conncoll.edu/information-services/technology-services/it-service-desk/">IT Service Desk</a> at Connecticut College<br><b>Network Technician</b> at the Network &amp; Systems Department at Connecticut College</p>
+									<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Follow the link above to learn more about the IT Service Desk at Connecticut College.  Contact me for references from these jobs.">learn more</button>
 								</div>
 							</div>
 
@@ -80,7 +79,7 @@ File: index.php
 								<img height="250" width="369" src="img/html-code.jpg" alt="html code image">
 								<div class="card-block">
 									<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www">source code</a> of the very site you are on right now<br><b>Chess Website</b> aspiring to be a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
-									<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+									<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="All of my projects can be found on GitHub, so click the source code links on the above projects to learn more about them.  Be sure to read the documentation of those projects to get a good idea of where to start.">learn more</button>
 								</div>
 							</div>
 
@@ -92,7 +91,7 @@ File: index.php
 								<img height="250" src="img/Knight-chess.jpg" alt="black_knight image">
 								<div class="card-block">
 									<p class="card-text"><b>Tournament Competition</b> with the <a href="https://new.uschess.org/home/">US Chess Federation</a> - my stats <a href="http://www.uschess.org/msa/MbrDtlMain.php?13599730">here</a><br><b>Online</b> pretty much daily at <a href="https://en.lichess.org">lichess.org</a> - here is a link to <a href="https://en.lichess.org/@/ivarcode">my profile</a><br><b>Tutor</b> anyone who wants to learn more about the game - contact me if you're interested!</p>
-									<button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+									<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="The US Chess Federation is the official governing body for chess players in the United States.  I compete in many of these OTB (over the board) tournaments.  I also play online regularly at lichess.org and tutor chess enthusiasts of all ages.">learn more</button>
 								</div>
 							</div>
 						</div>
@@ -152,14 +151,12 @@ File: index.php
 
 	<script>
 		// scripting required to allow popovers to function
-		$( function( )
-		{
-			$( "[data-toggle='popover'" ).popover( );
-		} );
-		$( ".popover-dismiss" ).popover(
-		{
+		$(function() {
+			$("[data-toggle='popover'").popover();
+		});
+		$(".popover-dismiss").popover({
 			trigger: "focus"
-		} );
+		});
 	</script>
 
 </body>
