@@ -16,7 +16,8 @@ img {
 /* cover */
 
 #cover {
-    background: #222 url('img/AmWThvw.jpg') center center no-repeat;
+    background: #222 url('img/Fj3DgM2.jpg') center center no-repeat;
+    font-family: "Lucida Console", Monaco, monospace;
     background-size: cover;
     color: white;
     height: 100%;
@@ -24,21 +25,26 @@ img {
     display: flex;
     align-items: center;
 }
-
+.cover-link {
+    font-size:28px;
+    color: #BAC1C8;
+    margin: 25px;
+}
+.cover-link:hover {
+    color:#EAECEE;
+}
 #cover-caption {
     width: 100%;
 }
 
 
 /* what i do */
-
 #what-i-do {
 	background: #FFFFFF;
 }
 
 
 /* about */
-
 #about {
     background: url('img/IMG_3635_web-X2.jpg') center center no-repeat;
     background-size: cover;
@@ -74,7 +80,6 @@ img {
 
 
 /* general class css */
-
 .float_right {
     float: right;
     padding: 10px;
