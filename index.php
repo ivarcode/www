@@ -39,7 +39,7 @@ File: index.php
 					<form style="margin-top:30px;" action="" class="form-inline">
 						<a class="cover-link" href="#what-i-do">what i do</a>
 						<a class="cover-link" href="#about">about me</a>
-						<a class="cover-link" href="#" title="this button doesn't work yet :D">chess</a>
+						<a class="cover-link" href="http://www.schackmatt.net/analysis.php">chess</a>
 					</form>
 
 					<br>
@@ -78,7 +78,7 @@ File: index.php
 								</div>
 								<img height="250" width="369" src="img/html-code.jpg" alt="html code image">
 								<div class="card-block">
-									<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www">source code</a> of the very site you are on right now<br><b>Chess Website</b> aspiring to be a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
+									<p class="card-text"><b>ivarcode.net</b> <a href="https://github.com/ivarcode/www">source code</a> of the very site you are on right now<br><b>Chess Website</b> <a href="http://www.schackmatt.net/analysis.php">schackmatt.net</a> a tool for chess players to analyze play and learn, this website is still in its early developmental stages<br><a href="https://github.com/ivarcode/schackmatt">source code</a> written in HTML, CSS, Javascipt<br><b></b></p>
 									<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="All of my projects can be found on GitHub, so click the source code links on the above projects to learn more about them.  Be sure to read the documentation of those projects to get a good idea of where to start.">learn more</button>
 								</div>
 							</div>
