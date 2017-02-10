@@ -111,6 +111,7 @@ File: index.php
 						<p class="lead">Currently, I am a sophomore computer science major at Connecticut College in New London, Connecticut. Born outside of Austin, Texas, I grew up in Swarthmore, Pennsylvania, playing soccer, discovering the intrigue of chess, as well as developing a passion for computer programming. In my free time, I enjoy traveling to visit friends and family, and am always happy to spend time with my dog, Chester.</p>
 						<p>I am always interested in taking up new projects or startups with other like-minded entrepreneurs. I am also a college student so I am in the market for hiring... if you have any interest in working together do not hesitate to contact me.</p>
 						<hr class="hr-set_1">
+						<a style="float: right;" href="assets/Resume.pdf" download>Download Resume</a>
 						<p><b>Contact Me</b><br>camden.i.wagner@ivarcode.net<br>cell: (610) 999 0946</p>
 						<a class="ico_img" href="https://plus.google.com/u/1/114141582683736470404" alt="Google"><img width="48" height="48" src="img/1471913200_googleplus.png"></a>
 						<a class="ico_img" href="https://github.com/ivarcode" alt="GitHub"><img width="48" height="48" src="img/1471913186_github.png"></a>
