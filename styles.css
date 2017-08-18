@@ -3,6 +3,34 @@ Author: Camden I. Wagner
 File: styles.css
 */
 
-body {
-    font-family: "Lucida Console", Monaco, monospace;
+html, body {
+    margin: 0;
+    height: 100%;
+     font-family: "Lucida Console", Monaco, monospace; 
 }
+
+.container {
+    height: 100%;
+    background: url('img/8f6c308.jpg') center center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+#header {
+    grid-column: 3/11;
+    grid-row: 1/3;
+    align-self: end;
+}
+
+
+
+/*dev coloring of divs  */
+/* .container > div {
+    background: #eee;
+    padding: 1em;
+}
+.container > div:nth-child(odd) {
+    background: #ccc;
+} */
