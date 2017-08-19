@@ -6,7 +6,7 @@ File: styles.css
 html, body {
     margin: 0;
     height: 100%;
-     font-family: "Lucida Console", Monaco, monospace; 
+    font-family: "Lucida Console", Monaco, monospace; 
 }
 
 .container {
@@ -17,6 +17,9 @@ html, body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
 }
+.grid {
+    display: grid;
+}
 
 #header {
     grid-column: 3/11;
@@ -24,13 +27,34 @@ html, body {
     align-self: end;
 }
 
+#nav {
+    grid-column: 2/5;
+    grid-row: 4/10;
+}
+._nav_link {
+    grid-template-rows: 30% 30% 30%;
+}
+._nav_link a {
+    font-style: italic;
+    font-size: 42px;
+    color: white;
+}
+
+#footer {
+    grid-column: 1/13;
+    grid-row: 12/13;
+}
+#footer_main {
+    grid-column: 3/11;
+}
+
 
 
 /*dev coloring of divs  */
-/* .container > div {
-    background: #eee;
+.container > div {
+    background: rgba(50, 50, 50, 0.5);
     padding: 1em;
 }
 .container > div:nth-child(odd) {
-    background: #ccc;
-} */
+    background: rgba(100, 100, 100, 0.5);
+}
