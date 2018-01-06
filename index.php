@@ -34,10 +34,10 @@ File: index.php
 		<div id="cover-caption">
 			<div class="container">
 				<div class="col-sm-12 col-sm-offset-1">
-					<h1 style="font-size:84px;color:#888B8D;">ivarcode.net</h1>
+					<h1 id="title">ivarcode.net</h1>
 
 					<form style="margin-top:30px;" action="" class="form-inline">
-						<a class="cover-link" href="#what-i-do">what i do</a>
+						<a class="cover-link" href="#what-i-do-title">what i do</a>
 						<a class="cover-link" href="#about">about me</a>
 						<a class="cover-link" href="http://www.schackmatt.net/">chess</a>
 					</form>
@@ -49,11 +49,13 @@ File: index.php
 			</div>
 		</div>
 	</section>
-
+	<div id="what-i-do-title" style="height:10%;">
+		<center><div id="arrowup"><a href="#what-i-do-title" style="color:black;"><h1 id="wid" style="padding-top:30px;"> what i do </h1></a></div></center>
+	</div>
 	<section id="what-i-do" name="what-i-do">
+		
 		<div class="section-content">
 			<div class="container">
-				<h2>What I do</h2>
 				<p class="lead">I am an experienced computer programmer in many languages including but not limited to: Java, C, C++, HTML, Javascript, PHP, CSS, Python and XML.  I am currently working on some personal projects, as well as working at Connecticut College as a network technician and as technical support at the college's IT Service Desk.  I play chess in my free time online, tutor kids and adults, and play at a competitive level in <a href="https://new.uschess.org/home/">USCF tournaments</a>.</p>
 
 				<div class="row">
