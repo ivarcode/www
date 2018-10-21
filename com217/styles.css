@@ -1,0 +1,25 @@
+﻿/*
+Author: Camden I. Wagner
+File: styles.css
+*/
+
+html,
+body {
+	background: #000000;
+    height: 100%;
+}
+
+#main {
+	background: #000 url('img/Screenshot (124).png') center center no-repeat;
+	font-family: "Lucida Console", Monaco, monospace;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+	font-size: 42px;
+}
