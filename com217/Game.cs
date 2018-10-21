@@ -4,27 +4,8 @@ using UnityEngine;
 
 public class Game : MonoBehaviour {
 
-    // KEY
-    /*
-        0 - empty
-        1 - block
-
-     */
-
     // Game objects
-    int[,] room = new int[,]
-    {
-        {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-    };
+    Room r = new Room(0, 0, null);
 
 	public Mob waterMob;
 	public Mob airMob;
@@ -46,7 +27,7 @@ public class Game : MonoBehaviour {
 
         for (int i = 0; i < 17; i++) {
             for (int j = 0; j < 9; j++) {
-                if (room[j,i] == 1) {
+                if (r.data[j,i] == 1) {
                     position = new Vector3(i-8,-j+4,0);
                     newObstacle = Instantiate(waterObstacle, position, Quaternion.identity);
                 }
