@@ -133,6 +133,8 @@ File: index.php
 				<div class="col-sm-3">
 					<h6>Copyright &copy; 2018 C.I.W.</h6>
 					<p>coded by Camden I. Wagner</p>
+					<hr>
+					<p style="font-size:10px;">cover photo by <a style="font-size:10px;" href="https://www.instagram.com/claradiannabethharding/">Clara D. Harding</a></p>
 				</div>
 				<div class="col-sm-3"></div>
 				<div class="col-sm-5"></div>
