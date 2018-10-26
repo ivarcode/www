@@ -16,11 +16,12 @@ img {
 /* cover */
 
 #cover {
-    background: #000 url('img/Fj3DgM2.jpg') center center no-repeat;
+	/*image credit to Clara Harding taken in Sturbridge MA*/
+    background: #000 url('img/JPEG-02_Dark.jpg') center center no-repeat;
     font-family: "Lucida Console", Monaco, monospace;
     background-size: cover;
     color: white;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -66,7 +67,7 @@ img {
 
 /* about */
 #about {
-    background: url('img/IMG_3635_web-X2.jpg') center center no-repeat;
+    background: url('img/bgaboutsection_dark.jpg') center center no-repeat;
     background-size: cover;
 }
 .ico_img {

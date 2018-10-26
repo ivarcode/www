@@ -49,9 +49,9 @@ File: index.php
 			</div>
 		</div>
 	</section>
-	<div id="what-i-do-title" style="height:10%;">
+	<!--<div id="what-i-do-title" style="height:10%;">
 		<center><div id="arrowup"><a href="#what-i-do-title" style="color:black;"><h1 id="wid" style="padding-top:30px;"> what i do </h1></a></div></center>
-	</div>
+	</div>-->
 	<section id="what-i-do" name="what-i-do">
 		
 		<div class="section-content">
@@ -108,9 +108,9 @@ File: index.php
 			<div class="container">
 				<div class="col-md-6">
 					<div class="about-text">
-						<img id="cwagner_hs" class="float_right" width="200" height="300" src="img/cwagner_hs.jpg" alt="cwagner_hs image file"></img>
+						<img id="cwagner_hs" class="float_right" width="200" height="300" src="img/cwagner_hs.png" alt="cwagner_hs image file"></img>
 						<h3>About me</h3>
-						<p class="lead">Currently, I am a sophomore computer science major at Connecticut College in New London, Connecticut. Born outside of Austin, Texas, I grew up in Swarthmore, Pennsylvania, playing soccer, discovering the intrigue of chess, as well as developing a passion for computer programming. In my free time, I enjoy traveling to visit friends and family, and am always happy to spend time with my dog, Chester.</p>
+						<p class="lead">Currently, I am a junior computer science major at Connecticut College in New London, Connecticut. Born outside of Austin, Texas, I grew up in Swarthmore, Pennsylvania, playing soccer, discovering the intrigue of chess, as well as developing a passion for computer programming. In my free time, I enjoy traveling to visit friends and family, and am always happy to spend time with my dog, Chester.</p>
 						<p>I am always interested in taking up new projects or startups with other like-minded entrepreneurs. I am also a college student so I am in the market for hiring... if you have any interest in working together do not hesitate to contact me.</p>
 						<hr class="hr-set_1">
 						<a style="float: right;" href="assets/Resume.pdf" download>Download Resume</a>
@@ -131,7 +131,7 @@ File: index.php
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<h6>Copyright &copy; 2016 C.I.W.</h6>
+					<h6>Copyright &copy; 2018 C.I.W.</h6>
 					<p>coded by Camden I. Wagner</p>
 				</div>
 				<div class="col-sm-3"></div>
