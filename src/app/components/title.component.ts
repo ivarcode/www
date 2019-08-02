@@ -4,7 +4,13 @@ import { Component } from '@angular/core';
     selector: 'app-title',
     template: `
         <br />
-        <h2 class="my_font">ivarcode.net</h2>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8"></div>
+            <div class="col-sm-2"></div>
+        </div>
     `
 })
 export class TitleComponent {}

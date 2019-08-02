@@ -1,15 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
 .my_font {
     font-family: 'Lucida Console', Monaco, monospace;
-    color: green;
 }
 
 html {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 body {
+    height: 100%;
     margin: 0;
     background: #000 url('./assets/img/JPEG-02_Dark.jpg') center center
         no-repeat;
+}
+
+#title {
+    color: white;
 }
