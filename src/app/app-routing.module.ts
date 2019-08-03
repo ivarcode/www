@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TitleComponent } from './components/title.component';
+import { WhatIDoComponent } from './components/what-i-do.component';
 
 const appRoutes: Routes = [
     {
-        component: TitleComponent,
-        path: 'title'
+        component: WhatIDoComponent,
+        path: 'what-i-do'
     },
     {
         redirectTo: '#',

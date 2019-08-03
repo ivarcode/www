@@ -11,10 +11,9 @@ html {
 }
 
 body {
-    height: 100%;
     margin: 0;
-    background: #000 url('./assets/img/JPEG-02_Dark.jpg') center center
-        no-repeat;
+    background: url('./assets/img/JPEG-02_Dark.jpg') center center no-repeat;
+    background-size: cover;
 }
 
 #title {

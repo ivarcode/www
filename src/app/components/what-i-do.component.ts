@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-title',
+    selector: 'app-what-i-do',
     template: `
         <br />
         <br />
@@ -13,4 +13,4 @@ import { Component } from '@angular/core';
         </div>
     `
 })
-export class TitleComponent {}
+export class WhatIDoComponent {}
