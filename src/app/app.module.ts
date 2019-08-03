@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WhatIDoComponent } from './components/what-i-do.component';
-import { HeaderComponent } from './components/header.component';
-import { FooterComponent } from './components/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     declarations: [
