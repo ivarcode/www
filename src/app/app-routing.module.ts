@@ -13,7 +13,7 @@ const appRoutes: Routes = [
         path: 'about-me'
     },
     {
-        redirectTo: '#',
+        redirectTo: 'what-i-do', // to be changed to direct to a live (or random) chess game
         path: '**'
     }
 ];
