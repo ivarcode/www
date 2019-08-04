@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
         <hr />
         <h4 class="my_second_font">{{ whatIDoBlurb }}</h4>
         <br />
+        <!-- IT Support -->
         <div class="row">
             <div class="col-sm-9">
                 <h3 class="my_second_font">

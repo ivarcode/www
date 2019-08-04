@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { WhatIDoComponent } from './components/what-i-do.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutMeComponent } from './components/about-me.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         WhatIDoComponent,
+        AboutMeComponent,
         HeaderComponent,
         FooterComponent
     ],
