@@ -1,0 +1,46 @@
+@import '~bootstrap/scss/bootstrap';
+
+.my_font {
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+.my_second_font {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: #000 url('./assets/img/JPEG-02_Darker.jpg') center center
+        no-repeat;
+    background-size: cover;
+}
+
+#title,
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.col-sm-3 img {
+    margin-bottom: 10px;
+}
+
+#social-links a {
+    padding: 5px;
+}
