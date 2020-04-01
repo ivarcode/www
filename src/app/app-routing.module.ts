@@ -1,11 +1,25 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { WhatIDoComponent } from './components/what-i-do.component';
+import { AboutMeComponent } from './components/about-me.component';
 
-
-const routes: Routes = [];
+const appRoutes: Routes = [
+    {
+        component: WhatIDoComponent,
+        path: 'what-i-do'
+    },
+    {
+        component: AboutMeComponent,
+        path: 'about-me'
+    },
+    {
+        redirectTo: 'what-i-do', // to be changed to direct to a live (or random) chess game
+        path: '**'
+    }
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    exports: [RouterModule],
+    imports: [RouterModule.forRoot(appRoutes)]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
